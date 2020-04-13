@@ -1,0 +1,15 @@
+<header>
+   <div>
+    <img src="https://digifair.com/wp-content/uploads/2020/03/Asset-14@2x.png" alt="Logo">
+  </div>
+   <ul class="">
+  {% for item in site.data.devices %}
+    <li class="">
+      <a href="{{ item.link | absolute_url }}" target="_blank">
+        <span class="icon">{{ item.icon }}</span>
+        <span class="">{{ item.text }}</span>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</header>

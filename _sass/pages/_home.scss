@@ -1,0 +1,43 @@
+.home{
+  .title{
+    text-align: center;
+    padding: 50px;
+    font-size: x-large;
+    font-weight: 700;
+  }
+
+  section + section{
+    padding-top: 20px;
+  }
+}
+
+
+.video{
+  display: flex;
+  flex-direction: column;
+
+  iframe{
+    height: 630px;
+
+  }
+}
+
+.benefits{
+  .content{
+    display: flex;
+    flex: 1 0 auto;
+    img{
+      width: 60%;
+      object-fit: contain;
+    }
+
+    ul{
+      font-size: xx-large;
+      font-weight: 100;
+
+      li+ li{
+        margin-top: 15px;
+      }
+    }
+  }
+}

@@ -10,9 +10,9 @@
     {% seo %}
   </head>
   <body>
-    <div class="container">
+    <div id="{{ page.id }}">
       {{ content }}
-    </div>
+    <div>
      <script src="{{ "/assets/javascripts/main.js" | absolute_url }}"></script>
   </body>
 </html>

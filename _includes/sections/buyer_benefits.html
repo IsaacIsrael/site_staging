@@ -1,0 +1,14 @@
+<h1 class="title">Digifair Note is a fashion productivity app to ease your apparel, fabric, material and trims sourcing as well as the connection with your team.</h1>
+
+<div class="row">
+  {% for item in site.data.buyer_benefits %}
+    <div class="col">
+      <div class="benefits-item">
+        {% include components/avatar_icon.html color=item.color icon=item.icon %}
+        <h3 class="title">{{item.title}}</h3>
+        <span class="body">{{item.body}}</span>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+

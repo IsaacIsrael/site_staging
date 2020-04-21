@@ -1,9 +1,6 @@
 import 'bootstrap';
 import { initSweetalert } from '../components/init_sweetalert';
+import { initCarrosel } from '../components/init_carrosel';
 
 
-initSweetalert('#sweet-alert-demo', {
-  title: "A nice alert",
-  text: "This is a great alert, isn't it?",
-  icon: "success"
-});
+initCarrosel();

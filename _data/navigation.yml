@@ -1,6 +1,6 @@
 - name: About
-  link: /about.html
+  link: /about
 - name: 'Terms & Conditions'
-  link: /terms.html
+  link: /terms
 - name: 'For Supplier'
-  link: /supplier.html
+  link: /supplier

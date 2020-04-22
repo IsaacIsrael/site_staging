@@ -1,31 +1,92 @@
-// .balls-container{
-//   position: relative;
-//   .ball-container{
-//     position:absolute
-//   }
-// }
-// .balls {
-//     background-color:white;
-//     padding:10px;
-//     border:2px solid #8A00FF;
-//     position: relative;
-//     border-radius: 50%;
+@media (min-width: 575.98px) {
+  .balls-container{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-areas: "b1 m ."
+                         ".  m b2"
+                         "b3 m ."
+  }
 
-// }
-// .balls:after {
-//     background-color: #8A00FF;
-//     content: '';
-//     position: absolute;
-//     top: 5px;
-//     left: 5px;
-//     right: 5px;
-//     bottom: 5px;
-//     border-radius: 50%;
-// }
-.ball-container{
-  padding:10px;
-  padding-top: 62.5%;
-  width: 50%;
+  .main{
+    grid-area: m;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+     &>*{
+      width:75px;
+      height:75px
+    }
+  }
+  .b1{
+    grid-area: b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &>*{
+      width:75px;
+      height:75px
+    }
+  }
+  .b2{
+    grid-area: b2;
+
+     &>*{
+      width:125px;
+      height:125px
+    }
+  }
+  .b3{
+    grid-area: b3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+     &>*{
+      width:100px;
+      height:100px
+    }
+  }
+}
+
+.balls {
+    position: relative;
+    background-color: #8A00FF;
+    color: #fff;
+    padding:10px;
+    max-height: calc( 100vw - 30px );
+    max-width: calc( 100vw - 30px );
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    .title{
+     font-size: xxx-large;
+     text-align: center;
+     font-weight: 700;
+     padding: 0 10px;
+    }
+
+    .sub-title{
+      font-size: x-large;
+      text-align: center;
+      padding:0 10px;
+    }
+}
+
+.balls:after {
+  content: '';
+  background-color:white;
   border:2px solid #8A00FF;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
   border-radius: 50%;
+  z-index: -1;
 }

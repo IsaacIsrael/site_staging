@@ -1,0 +1,19 @@
+.step-item{
+   position: relative;
+   img{
+    width: 100%;
+   }
+   .step-container{
+    width: 75%;
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    .step-body{
+      padding:20px;
+      box-sizing: border-box;
+      font-size: .8em;
+    }
+   }
+}
+

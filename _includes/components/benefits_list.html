@@ -1,7 +1,10 @@
-<h1 class="title">Digifair Note is a fashion productivity app to ease your apparel, fabric, material and trims sourcing as well as the connection with your team.</h1>
-
 <div class="row flex-column flex-sm-row">
-  {% for item in site.data.buyer_benefits %}
+  {% if include.list == nil %}
+    {% assign list = site.data.benefits[page.id]%}
+  {% else %}
+    {% assign list = site.data.benefits[include.list]%}
+  {% endif%}
+  {% for item in list %}
     <div class="col">
       <div class="benefits-item">
         {% include components/avatar_icon.html color=item.color icon=item.icon %}
@@ -11,4 +14,3 @@
     </div>
   {% endfor %}
 </div>
-

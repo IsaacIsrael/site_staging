@@ -1,9 +1,0 @@
-- name: header
-- name: video
-- name: buyer_benefits
-- name: download
-- name: buyer_infos
-- name: buyer_banner
-  container: false
-  image: https://digifair.com/wp-content/uploads/2020/02/banner3.jpg
-- name: buyer_offer

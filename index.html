@@ -3,15 +3,10 @@ title: Home
 id:  home
 ---
 
-{% for section in site.data.home_sections %}
-  <div class="{% if section.container == nil or section.container %}container{% endif %}">
-    <section id="{{ section.name }}">
-      {% include sections/{{section.name}}.html info=section %}
-    </section>
-  </div>
-{% endfor %}
-<!--  <section>
-    <div class="typeform-widget" data-url="https://digifair-note.typeform.com/to/Q74QoN" style="width: 100%; height: 500px;" ></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-      </div>
+{% for section in site.data.sections.home %}
+  <section id="{{ section.name }}">
+    <div class="{% if section.container == nil or section.container %}container{% endif %}">
+    {% include sections/{{section.name}}.html info=section %}
     </div>
-  </section> -->
+  </section>
+{% endfor %}

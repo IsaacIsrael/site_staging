@@ -1,0 +1,19 @@
+- name: banner
+  container: false
+  image: https://digifair.com/wp-content/uploads/2020/01/destaque-1.jpg
+  blur: false
+- name: benefits
+  title: This is how Digifair Note can help
+- name: banner_2
+  component: banner
+  container: false
+  banner: supplier_2
+  image: https://digifair.com/wp-content/uploads/2020/01/bg2.png
+  blur: false
+- name: supplier_info
+- name: steps
+- name: balls
+  title: LIMITED TIME OFFER
+  sub_title: Register Before The Official App Launch, In March, And Receive Leads For Free
+- name: price
+- name: form

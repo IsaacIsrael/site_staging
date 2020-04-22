@@ -1,0 +1,9 @@
+<div class="step-list">
+  <div class="row flex-column flex-sm-row">
+    {% for item in site.data.steps %}
+      <div class=" col col-md-4">
+        {% include components/step_item.html step=item %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

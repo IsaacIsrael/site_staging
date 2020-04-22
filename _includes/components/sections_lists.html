@@ -1,0 +1,12 @@
+{% for section in site.data.sections[page.id] %}
+  {% if section.component == nil %}
+    {% assign component = section.name%}
+  {% else %}
+    {% assign component = section.component%}
+  {% endif%}
+  <section id="{{ section.name }}">
+    <div class="{% if section.container == nil or section.container %}container{% endif %}">
+    {% include sections/{{component}}.html info=section %}
+    </div>
+  </section>
+{% endfor %}

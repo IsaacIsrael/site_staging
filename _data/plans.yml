@@ -1,0 +1,32 @@
+- name: Basic
+  price_year: free
+  price_month:
+  body:
+  button: DOWNLOAD THE APP
+  benifits:
+    - description: 1 e-mail account
+    - description: Up to 3 enquiries / qtr
+    - description: "-"
+    - description: "-"
+    - description: "-"
+- name: Professional
+  price_year: 122
+  price_month: 135
+  button: SUBSCRIBE NOW
+  benifits:
+    - description: 2 e-mail accounts
+    - description: Up to 20 enquiries / qtr
+    - description: 10 featured products*
+    - description: 1 Banner Ad in app
+    - description: "-"
+- name: Premium
+  price_year: 245
+  price_month: 272
+  body: PER MONTH BILLED YEARLY or $272 per month billed quarterly
+  button: SUBSCRIBE NOW
+  benifits:
+    - description: 5 e-mail accounts
+    - description: Unlimited enquiries
+    - description: 20 featured products*
+    - description: 1 Banner Ad in app
+    - description: See Insights and Analytics

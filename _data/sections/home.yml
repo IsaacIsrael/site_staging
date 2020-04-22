@@ -1,0 +1,14 @@
+- name: header
+- name: video
+- name: benefits
+  title: Digifair Note is a fashion productivity app to ease your apparel, fabric, material and trims sourcing as well as the connection with your team.
+  data: buyer
+- name: download
+- name: balls
+  title: LIMITED TIME OFFER
+  sub_title: Download The App To Be A Premium User For Free Until 31st August 2021. Don't Miss Out, Sign Up Now!
+- name: buyer_infos
+- name: banner
+  container: false
+  image: https://digifair.com/wp-content/uploads/2020/02/banner3.jpg
+- name: products

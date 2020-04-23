@@ -24,10 +24,11 @@
 - name: balls
   sub_title: Join our market place now!
 - name: download
+- name: contact_us
 - name: supplier_2
   component: banner
   container: false
   banner: supplier_2
   image: https://digifair.com/wp-content/uploads/2020/01/bg2.png
   blur: false
-- name: supplier_info
+- name: supplier_infos

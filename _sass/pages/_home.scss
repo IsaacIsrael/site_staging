@@ -1,11 +1,12 @@
 #home{
 
   #header{
-    padding: 30px 0;
     margin-top: 20px;
-    border-bottom: 1px solid #000000;
 
-
+    .row:first-child{
+      padding: 30px 0;
+      border-bottom: 1px solid #000000;
+    }
     .logo{
       width: 60%;
       object-fit: cover
@@ -23,6 +24,19 @@
           width: inherit;
         }
       }
+    }
+
+    .supplier{
+      background: #19AE95;
+      color: white;
+    }
+    .buyer{
+      background: #00B9F1;
+      color: white;
+    }
+
+    .buttons{
+      text-align: center;
     }
   }
 
@@ -49,35 +63,36 @@
 
   #download{
     padding: 30px;
-    border-bottom: 1px solid #000000;
   }
 
   #buyer_infos{
-    .content{
+    .col>div{
       display: flex;
+      height: 100%;
       align-items: center;
       justify-content: center;
-      margin-top: 40px;
+    }
+    img{
+      width: 50%;
+      object-fit: contain;
+    }
+    li{
+      display: list-item;
+      border: none;
+    }
+  }
 
-      &>div{
-        text-align: center;
-      }
+  #contact_us{
+    margin-top:0;
+    .title{
+      padding-top: 0;
+    }
+  }
 
-      img{
-        width: 50%;
-        object-fit: contain;
-      }
-
-      ul{
-       padding: 0;
-       font-size: large;
-       font-weight: 500;
-       text-align: initial;
-
-        li+ li{
-          margin-top: 40px;
-        }
-      }
+  #supplier_infos{
+    li{
+      display: list-item;
+      border: none;
     }
   }
 }

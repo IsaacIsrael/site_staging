@@ -3,10 +3,4 @@ title: Home
 id:  home
 ---
 
-{% for section in site.data.sections.home %}
-  <section id="{{ section.name }}">
-    <div class="{% if section.container == nil or section.container %}container{% endif %}">
-    {% include sections/{{section.name}}.html info=section %}
-    </div>
-  </section>
-{% endfor %}
+{% include components/sections_lists.html%}

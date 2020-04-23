@@ -1,4 +1,5 @@
 {% for section in site.data.sections[page.id] %}
+
   {% if section.component == nil %}
     {% assign component = section.name%}
   {% else %}

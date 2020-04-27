@@ -1,34 +1,9 @@
 - name: header
+- name: nav
 - name: video
-- name: buyer
-  component: banner
-  banner: buyer
-  container: false
-  image: https://digifair.com/wp-content/uploads/2020/02/banner3.jpg
-- name: benefits
-  data: buyer
-- name: buyer_infos
-- name: balls
-  sub_title: Download Digifair Note Now and Start Optimizing your textile sourcing today
-- name: download
-- name: supplier
-  component: banner
-  container: false
-  banner: supplier
-  image: https://digifair.com/wp-content/uploads/2020/01/destaque-1.jpg
-  blur: false
-- name: benefits
-  title: "Digifair Note brings you:"
-  data: supplier
-- name: price
-- name: balls
-  sub_title: Join our market place now!
-- name: download
-- name: contact_us
-- name: supplier_2
-  component: banner
-  container: false
-  banner: supplier_2
-  image: https://digifair.com/wp-content/uploads/2020/01/bg2.png
-  blur: false
-- name: supplier_infos
+- name: about_infos
+  component: infos
+  data: about
+  image: 'https://digifair.com/wp-content/uploads/2019/11/celular.png'
+  title: 'About us'
+- name: more_info

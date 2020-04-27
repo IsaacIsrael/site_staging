@@ -1,4 +1,6 @@
-- name: About
-  link: /about
+- name: Buyer
+  link: /buyer
+- name: Supplier
+  link: /supplier
 - name: 'Terms & Conditions'
   link: /terms

@@ -1,19 +1,22 @@
-- name: banner
+- name: supplier
+  component: banner
   container: false
   image: https://digifair.com/wp-content/uploads/2020/01/destaque-1.jpg
   blur: false
 - name: benefits
-  title: This is how Digifair Note can help
-- name: banner_2
+  title: "Digifair Note brings you:"
+  data: supplier
+- name: price
+- name: balls
+  sub_title: Join our market place now!
+- name: download
+- name: contact_us
+- name: supplier_2
   component: banner
   container: false
-  banner: supplier_2
   image: https://digifair.com/wp-content/uploads/2020/01/bg2.png
   blur: false
 - name: supplier_infos
-- name: steps
-- name: balls
-  title: LIMITED TIME OFFER
-  sub_title: Register Before The Official App Launch, In March, And Receive Leads For Free
-- name: price
-- name: form
+  component: infos
+  data: supplier
+  title: 'Digifair Note brings you :'

@@ -28,4 +28,4 @@ exclude:
   - webpack.config.js
   - "*.lock"
   - "*.log"
-url: "https://www.textilerequests.com/"
+url: "https://www.textilerequests.com"

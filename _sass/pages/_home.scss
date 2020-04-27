@@ -3,14 +3,6 @@
   #header{
     margin-top: 20px;
 
-    .row:first-child{
-      padding: 30px 0;
-      border-bottom: 1px solid #000000;
-    }
-    .logo{
-      width: 60%;
-      object-fit: cover
-    }
     .nav-item{
       a, a:hover {
         color: #B8B8B8;
@@ -25,7 +17,9 @@
         }
       }
     }
+  }
 
+  #nav{
     .supplier{
       background: #19AE95;
       color: white;
@@ -60,39 +54,42 @@
     }
   }
 
-
-  #download{
-    padding: 30px;
-  }
-
-  #buyer_infos{
-    .col>div{
-      display: flex;
-      height: 100%;
-      align-items: center;
-      justify-content: center;
-    }
-    img{
-      width: 50%;
-      object-fit: contain;
-    }
+  #about_infos{
     li{
-      display: list-item;
-      border: none;
+      display: block;
+      font-size: larger;
+
+      i{
+        margin-right: 10px;
+        color: #4CBDAB;
+      }
     }
   }
 
-  #contact_us{
-    margin-top:0;
+  #more_info{
     .title{
-      padding-top: 0;
+      color: #19AE95;
+      font-weight: 800;
+      padding-bottom: 10px;
     }
-  }
 
-  #supplier_infos{
-    li{
-      display: list-item;
-      border: none;
+    .body{
+      font-weight: 100;
+      color: #333333;
+      margin-bottom: 40px;
+    }
+
+    .download{
+      text-transform: uppercase;
+      font-weight: 100;
+      color: #777777;
+    }
+
+    .contact{
+      margin-top: 40px;
+      font-weight: 100;
+      font-size: small;
+      color: #333333;
     }
   }
 

@@ -1,0 +1,15 @@
+- name: buyer
+  component: banner
+  container: false
+  image: https://digifair.com/wp-content/uploads/2020/02/banner3.jpg
+- name: benefits
+  data: buyer
+- name: buyer_infos
+  component: infos
+  data: buyer
+  image: '/assets/images/cel-home_novo.gif'
+  title: 'Digifair Note enables you to:'
+- name: balls
+  sub_title: Download Digifair Note Now and Start Optimizing your textile sourcing today
+- name: download
+

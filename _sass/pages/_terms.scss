@@ -1,0 +1,37 @@
+#terms{
+  section{
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+  .nav{
+    border: 0;
+  }
+  .nav-item{
+    border: 0;
+    color: #495057;
+    font-size: x-large;
+  }
+
+  .nav-item.active{
+    color: #007bff;
+
+  }
+
+  .tab-pane{
+    margin-top: 40px;
+
+    *{
+      font-weight: 100;
+      font-size: smaller;
+      color: #333333;
+    }
+
+    h6{
+      margin-bottom: 20px;
+    }
+
+    p{
+       margin-bottom: 40px;
+    }
+  }
+}

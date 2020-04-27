@@ -1,24 +1,11 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="robots" content="noindex">
-    <meta name="googlebot" content="noindex">
-    <title>{{ page.title }}</title>
-
-    <link rel="stylesheet" href="
-    {{ "/assets/css/styles.css" | absolute_url }}">
-
-
-    {% seo %}
-  </head>
+<html lang="en">
+  {% include layouts/head.html %}
   <body>
     <div id="{{ page.id }}">
       {{ content }}
       {% include components/footer.html %}
     <div>
-     <script src="{{ "/assets/javascripts/main.js" | absolute_url }}"></script>
-     <script src="https://kit.fontawesome.com/15ead470a8.js" crossorigin="anonymous"></script>
+     {% include layouts/scripts.html %}
   </body>
 </html>

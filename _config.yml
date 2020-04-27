@@ -28,4 +28,12 @@ exclude:
   - webpack.config.js
   - "*.lock"
   - "*.log"
+
+
+
+title: Digifair Note
+email: hi@digifair.com
+description: Digifair Note is a fabric sourcing and inspiration productivity app for fashion buyers and fashion designers. Upload photos of fabrics, register your suppliers' contacts, track fabric trade shows - all in one single app.
+baseurl: ""
+logo: assets/images/logo.png
 url: "https://www.textilerequests.com"

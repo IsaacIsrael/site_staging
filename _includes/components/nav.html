@@ -1,7 +1,11 @@
- <div class="row buttons flex-column flex-sm-row">
+ <div class="row buttons justify-content-center flex-column flex-sm-row">
   {% for item in site.data.nav[include.list] %}
-    <div class="col text-center">
-     <a href="{{ item.link | absolute_url }}" class="btn  btn-lg {{item.class}}">{{item.name}}</a>
-    </div>
+    {% if include.commponent == nil %}
+      <div class="col text-center">
+        <a href="{{ item.link | absolute_url }}" class="btn  btn-lg {{item.class}}">{{item.name}}</a>
+      </div>
+    {% else %}
+      {% include components/{{ include.commponent }}.html item=item%}
+    {% endif%}
   {% endfor %}
 </div>

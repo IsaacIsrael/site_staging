@@ -1,9 +1,6 @@
 - name: header
-- name: nav
 - name: video
-- name: about_infos
-  component: infos
-  data: about
-  image: 'https://digifair.com/wp-content/uploads/2019/11/celular.png'
-  title: 'About us'
-- name: more_info
+- name: nav
+- name: about
+- name: nav
+  data: links

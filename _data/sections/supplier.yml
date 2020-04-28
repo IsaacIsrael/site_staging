@@ -4,13 +4,13 @@
   image: https://digifair.com/wp-content/uploads/2020/01/destaque-1.jpg
   blur: false
 - name: benefits
-  title: "Digifair Note brings you:"
+  title: "Digifair Note enables you to get:"
   data: supplier
 - name: price
 - name: balls
   sub_title: Join our market place now!
 - name: download
-- name: contact_us
+- name: nav
 - name: supplier_2
   component: banner
   container: false

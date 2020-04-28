@@ -1,8 +1,8 @@
 {% if include.info.data == nil %}
-  <p>page.id</p>
   {% assign list = page.id%}
 {% else %}
-  <p>include.info.data</p>
   {% assign list = include.info.data%}
 {% endif%}
-{% include components/nav.html list=list %}
+{% include components/nav.html list=list
+                               commponent=include.info.nav_component
+%}

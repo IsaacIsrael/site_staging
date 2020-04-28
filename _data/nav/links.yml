@@ -1,33 +1,23 @@
  - name: Buyers
-   class: buyer
    link: /buyer
  - name: Suppliers
-   class: supplier
    link: /supplier
- - name: Buyers
-   class: btn-primary
+ - name: Blog
    link: /blog
  - name: Commerce
    class: btn-info
    link: /ecommerce
  - name: Fabrics
-   class: btn-info
-   link: /ecommerce
+   link: /fabrics
  - name: Swatch
-   class: btn-info
-   link: /ecommerce
+   link: /swatch
  - name: Wooven
-   class: btn-info
-   link: /ecommerce
+   link: /wooven
  - name: Embroidery
-   class: btn-info
-   link: /ecommerce
+   link: /embroidery
  - name: Lace
-   class: btn-info
-   link: /ecommerce
+   link: /lace
  - name: Knit
-   class: btn-info
-   link: /ecommerce
+   link: /knit
  - name: Non-wooven
-   class: btn-info
-   link: /ecommerce
+   link: /non_wooven

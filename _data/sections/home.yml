@@ -3,4 +3,5 @@
 - name: nav
 - name: about
 - name: nav
+  nav_component: card_link
   data: links

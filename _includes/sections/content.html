@@ -1,0 +1,6 @@
+{% for item in site.data.content[ page.id] %}
+  <article id="{{item.id}}">
+    <h2>{{ item.title }}</h2>
+    {{ item.content }}
+  </article>
+{% endfor %}

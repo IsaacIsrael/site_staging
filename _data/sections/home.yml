@@ -1,6 +1,8 @@
 - name: nav
 - name: video
 - name: titles
+  sub_title: An app for the textile industry
+  third_subtitle: Digifair Note is a free app that works for both buyers or suppliers of apparel, fabrics, materials or trims.
 - name: info
   columns:
     - commponent: info

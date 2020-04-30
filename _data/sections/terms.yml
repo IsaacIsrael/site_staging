@@ -1,1 +1,4 @@
-- name: nav_tabs
+- name: titles
+  title: Terms and Conditions
+- name: nav
+- name: content

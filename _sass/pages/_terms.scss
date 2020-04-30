@@ -1,37 +1,40 @@
 #terms{
-  section{
-    margin-top: 40px;
-    padding: 20px 0;
-  }
-  .nav{
-    border: 0;
-  }
-  .nav-item{
-    border: 0;
-    color: #495057;
-    font-size: x-large;
-  }
 
-  .nav-item.active{
-    color: #007bff;
-
-  }
-
-  .tab-pane{
-    margin-top: 40px;
-
-    *{
-      font-weight: 100;
-      font-size: smaller;
-      color: #333333;
-    }
-
-    h6{
-      margin-bottom: 20px;
-    }
-
-    p{
-       margin-bottom: 40px;
+  #titles{
+    margin-top: 100px;
+    h1{
+      text-align: center;
+      font: 700;
+      color: #00BAF2;
+      text-transform: uppercase;
+      font-size: 1.5em
     }
   }
+  #nav{
+    margin-bottom: 100px;
+    .nav{
+      justify-content: center;
+      padding: 20px;
+      border: 1px solid #707070;
+      margin: 0 100px;
+    }
+  }
+
+  article{
+    padding: 40px;
+  }
+
+  article + article{
+     border-top: 1px solid #707070;
+  }
+
+  h2{
+    text-align: left;
+    font: 500;
+    letter-spacing: 0px;
+    color: #3E3D3D;
+    text-transform: uppercase;
+    font-size: 1.3em
+  }
+
 }

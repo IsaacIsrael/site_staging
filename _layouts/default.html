@@ -3,8 +3,9 @@
   {% include layouts/head.html %}
   <body>
     <div id="{{ page.id }}">
+      {% include layouts/header.html %}
       {{ content }}
-      {% include components/footer.html %}
+      {% include layouts/footer.html %}
     <div>
      {% include layouts/scripts.html %}
   </body>

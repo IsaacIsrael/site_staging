@@ -1,96 +1,94 @@
 #home{
-
-  #header{
-    margin-top: 20px;
-
-    .nav-item{
-      a, a:hover {
-        color: #B8B8B8;
-        font-weight: 200;
-      }
-      .icon{
-        padding-right: 5px;
-        height: 30px;
-        width: 30px;
-        &>*{
-          width: inherit;
-        }
-      }
-    }
-  }
-
   #nav{
-    .supplier{
-      background: #19AE95;
-      color: white;
-    }
-    .buyer{
-      background: #00B9F1;
-      color: white;
+    .container{
+      border-bottom: 1px solid #000000;
+      border-top: 1px solid #000000;
     }
 
-    .buttons{
-      text-align: center;
+    .nav{
+      margin: 10px 0;
+      justify-content: flex-end;
+
+      a{
+        margin-left: 24px;
+      }
+
+      span{
+        text-align: right;
+        font: 700;
+        letter-spacing: 0.26px;
+        color: #3E3D3D;
+        opacity: 1;
+      }
     }
   }
 
   #video{
-    display: flex;
-    flex-direction: column;
+    .banner{
+      min-height: 790px;
+      height: auto;
+      padding: 60px;
+    }
 
-    .iframe-container{
-      position: relative;
-      width: 100%;
-      padding-bottom: 56.25%;
-      height: 0;
-
-      iframe{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%
-      }
+    h1{
+      font-weight: 400;
+      letter-spacing: 1.41px;
+      color: #3E3D3D;
     }
   }
 
-  #about_infos{
-    li{
-      display: block;
-      font-size: larger;
+  #titles{
+    margin-bottom: 80px;
 
-      i{
-        margin-right: 10px;
-        color: #4CBDAB;
-      }
+    *{
+      text-align: center;
+      font-weight: 400;
     }
-  }
 
-  #more_info{
     .title{
-      color: #19AE95;
-      font-weight: 800;
-      padding-bottom: 10px;
-    }
-
-    .body{
-      font-weight: 100;
-      color: #333333;
-      margin-bottom: 40px;
-    }
-
-    .download{
+      color: #3E3D3D;
       text-transform: uppercase;
-      font-weight: 100;
-      color: #777777;
     }
 
-    .contact{
-      margin-top: 40px;
-      font-weight: 100;
-      font-size: small;
-      color: #333333;
+    .subtitle{
+      color: #707070;
     }
   }
 
+  #info{
+    .bullet{
+      background: #AB4499;
+      border-radius: 20px;
+      width: 32px;
+      height: 8px;
+      margin: 0 12px;
+    }
+
+    h4{
+      font-weight: 700;
+      color: #00BAF2;
+      text-transform: uppercase;
+    }
+    p{
+      font-weight: 500;
+      color: #707070;
+      font-size: 1.3em;
+      margin-bottom: 100px;
+    }
+     a, a:hover
+    {
+      font-weight: 500;
+      color: #3E3D3D;
+      text-decoration: none;
+    }
+
+    img{
+      width: 100%;
+      margin-left: -100px;
+      object-fit: contain;
+    }
+    .flex-md-column-reverse img{
+        margin-left: 100px;
+    }
+  }
 }

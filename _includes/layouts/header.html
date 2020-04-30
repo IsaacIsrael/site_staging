@@ -1,0 +1,22 @@
+<header class="header">
+  <div class="container">
+   <div class="row flex-column flex-sm-row">
+     <div class="col">
+         <img class="logo" src="{{ 'assets/images/logo_header.png' | absolute_url}}" alt="Logo">
+     </div>
+     <div class="col">
+       <ul class="nav justify-content-end flex-column flex-sm-row ">
+          {% for item in site.data.header %}
+            <li class="nav-item">
+              <a href="{{ item.link | absolute_url }}" target="_blank" class="nav-link">
+                {{ item.text }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+     </div>
+   </div>
+ </div>
+</header>
+
+

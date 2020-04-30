@@ -1,17 +1,56 @@
 footer{
   background: #54595F;
-  color: #fff;
-  padding: 100px 0;
-  margin-top: 40px;
+  padding: 40px 0;
 
-  img{
-    max-width: 250px;
+  .row{
+    padding: 40px 0;
   }
 
-  a, a:hover{
-    text-decoration: none;
-    color:#fff;
+  .row + .row{
+    border-top: 1px solid #B9ADAD;
+  }
+
+  h6{
+    text-align: left;
+    font-weight: 800 ;
+    letter-spacing: 0.11px;
+    color: #DDD0D0;
     text-transform: uppercase;
-    font-weight: 100;
+  }
+
+  .nav-link{
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0.11px;
+    color: #FFFFFF;
+    font-size: .9em;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .logo a{
+    text-align: center;
+  }
+
+  .social{
+    flex-direction: row !important;
+    justify-content: space-between;
+    margin-right: 20px;
+
+    .nav-item{
+      background: #7C7C7C;
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .contact{
+    i{
+      font-size:1.3em;
+    }
   }
 }

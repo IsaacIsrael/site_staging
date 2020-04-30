@@ -1,0 +1,28 @@
+<footer>
+  <div class="container">
+    {% for row in site.data.footer %}
+    <div class="row flex-column flex-sm-row">
+      {% for item in row.data %}
+        <div class="col">
+          {% if item.title != nil %}
+            <h6>{{item.title}}</h6>
+           {% endif%}
+          <ul class="nav flex-column {{item.link_class}} ">
+            {% for link in item.links %}
+              <li class="nav-item">
+                <a title="{{ link.title }}" class="nav-link" href="{{ link.link | absolute_url }}" {% if link.target != nil %}target="_blank"{% endif%} >
+                  {% if link.image != nil %}
+                     <img  src="{{ 'assets/images/'| append: link.image  | absolute_url}}" alt="White Logo">
+                  {% else %}
+                     {{link.name}}
+                  {% endif%}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+       {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</footer>

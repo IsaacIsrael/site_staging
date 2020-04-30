@@ -1,9 +1,24 @@
 .header{
-  padding: 30px 0;
-  border-bottom: 1px solid #000000;
+  margin: 32px 0;
 
-  .logo{
-    width: 60%;
-    object-fit: cover
+  a, a:hover {
+    text-align: center;
+    font-weight:500;
+    color: #000000;
+    text-decoration: none;
   }
+
+ .fa-apple{
+  width: 20px;
+  height: 25px;
+  font-size: 1.2em;
+ }
+ .fa-google-play{
+  width: 27px;
+  height: 27px;
+ }
 }
+
+
+
+

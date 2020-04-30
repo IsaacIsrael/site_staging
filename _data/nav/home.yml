@@ -1,12 +1,9 @@
- - name: Buyers
-   class: buyer
-   link: /buyer
- - name: Suppliers
-   class: supplier
-   link: /supplier
- - name: Buyers
-   class: btn-primary
-   link: /blog
- - name: Commerce
-   class: btn-info
-   link: /ecommerce
+- name: How it Works for
+- name: Buyers
+  class: btn-primary
+  link: /buyer
+- name: Suppliers
+  class: btn-secondary
+  link: /supplier
+
+

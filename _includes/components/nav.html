@@ -1,11 +1,11 @@
- <div class="row buttons justify-content-center flex-column flex-sm-row">
+<ul class="nav flex-column flex-sm-row">
   {% for item in site.data.nav[include.list] %}
-    {% if include.commponent == nil %}
-      <div class="col text-center">
-        <a href="{{ item.link | absolute_url }}" class="btn  btn-lg {{item.class}}">{{item.name}}</a>
-      </div>
+   <li class="nav-item">
+    {% if item.link != nil %}
+      <a href="{{ item.link | absolute_url }}" class="nav-link btn {{item.class}}">{{item.name}}</a>
     {% else %}
-      {% include components/{{ include.commponent }}.html item=item%}
+      <span class="nav-link">{{item.name}}</a>
     {% endif%}
+  </li>
   {% endfor %}
-</div>
+</ul>

@@ -1,0 +1,13 @@
+<div class="d-flex flex-column {% if include.info.reverse != nil %}flex-md-column-reverse{% endif %}">
+  <div>
+     <h4 class="d-flex align-items-center flex-row{% if include.info.reverse != nil %}-reverse{% endif %}">
+      <div class="bullet"></div>
+      <span>{{ include.info.title }}</span>
+    </h4>
+    <p class="{% if include.info.reverse != nil %}text-right{% endif %}">
+      {{ include.info.body }}
+      <a href="{{ include.info.link | absolute_url}}">Learn more here.</a>
+    </p>
+  </div>
+  <img src="{{ 'assets/images/'| append: include.info.image | absolute_url}}" alt="{{ include.info.title }}">
+</div>

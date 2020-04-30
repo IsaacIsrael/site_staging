@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manrope:400,500,700,800&display=swap');
 
 
-$font-family-sans-serif:        'Roboto', sans-serif;
-$headings-font-family:          'Roboto', sans-serif;
+$font-family-sans-serif:        'Manrope', sans-serif;
+$headings-font-family:          'Manrope', sans-serif;
+$theme-colors: (
+  "primary": #AB4499,
+  "secondary": #0DAF96
+);

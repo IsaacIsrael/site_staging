@@ -1,0 +1,9 @@
+<div class="row flex-column flex-sm-row ">
+  {% for item in include.info.columns %}
+  <div class="col">
+    {% include components/{{ item.commponent }}.html  info=item%}
+  </div>
+  {% endfor %}
+</div>
+
+

@@ -1,0 +1,70 @@
+- data:
+  - link_class: logo
+    links:
+      - image: logo_square_white.png
+        alt: White Logo
+        link: /
+  - title: CONTACT US
+    link_class: contact
+    links:
+      - name: <i class="fas fa-phone-square-alt"></i> <i class="fab fa-whatsapp-square"></i> +1(917)3106710
+        link: https://api.whatsapp.com/send?1=pt_BR&phone=1(917)3106710
+        target: true
+      - name: <i class="fas fa-envelope-square"></i> hi@digifair.com
+        link:  mailto:hi@digifair.com?Subject=Hi
+  - title: Follow us
+    link_class: social
+    links:
+      - name: <i class="fab fa-instagram"></i>
+        target: true
+        link: https://www.instagram.com/digifair/
+      - name: <i class="fab fa-facebook-f"></i>
+        target: true
+        link: https://www.facebook.com/digifair365/
+      - name: <i class="fab fa-linkedin-in"></i>
+        target: true
+        link: https://br.pinterest.com/digifair/
+      - name: <i class="fab fa-pinterest-p"></i>
+        target: true
+        link: https://www.linkedin.com/company/digifair
+  - title: DOWNLOAD THE APP
+    links:
+      - image: download_apple.png
+        alt: download apple
+        target: true
+        link: https://apps.apple.com/br/app/digifair-note/id1483213399
+      - image: download_android.png
+        alt: download android
+        target: true
+        link: https://play.google.com/store/apps/details?id=com.digifairnote
+- data:
+  - link_class: logo
+    links:
+      - name: <img style="width:109px;height:36px" src="https://s3-eu-west-1.amazonaws.com/sqreen-assets/badges/20171107/sqreen-light-badge.svg" alt="Sqreen | Runtime Application Protection" />
+        link: https://www.sqreen.com/?utm_source=badge
+        target: true
+        title: Realtime application protection
+  - title: GENERAL
+    links:
+      - name: About
+        link: "#"
+      - name: Blog
+        link: "#"
+      - name: 'Terms & Conditions'
+        link: /terms
+  - title: FABRIC OR APPAREL  BUYERS
+    links:
+      - name: Improve your productivity
+        link: /buyer
+      - name: How Digifair Note works for buyers
+        link: /buyer
+      - name: Product inspirations
+        link: /buyer
+  - title: FABRIC OR APPAREL SUPPLIERS
+    links:
+      - name: Get more textile requests
+        link: /supplier
+      - name: Types of products to advertise
+        link: /supplier
+      - name: Know more about our store
+        link: /supplier

@@ -1,20 +1,16 @@
-<div class="info-list">
-  <div class="row flex-column flex-sm-row ">
-    <div class="col col-md-6 {% if include.image == nil %} offset-md-3 {% endif %}">
-      <div>
-          <ul class="list-group list-group-flush">
-            {% for item in site.data.infos[include.list] %}
-              <li class="list-group-item">{{ item.description }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-      {% if include.image != nil %}
-        <div class="col col-md-6">
-          <div>
-            <img src="{{include.image | absolute_url}}" alt="Gif demonstrativo">
-          </div>
-        </div>
-      {% endif %}
-  </div>
-</div>
+{% if include.list == nil %}
+  {% assign list = include.info.list%}
+{% else %}
+  {% assign list = site.data.infos[include.list]%}
+{% endif%}
+<h2>
+  <small>{{ include.info.title }}</small>
+</h2>
+<ul class="list-group list-group-flush">
+  {% for item in list %}
+    <li class="list-group-item">
+      <div class="bullet"></div>
+      <span>{{ item.description }}</span>
+    </li>
+  {% endfor %}
+</ul>

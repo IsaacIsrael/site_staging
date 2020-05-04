@@ -1,0 +1,49 @@
+#info{
+  .bullet{
+    background: #AB4499;
+    border-radius: 20px;
+    min-width: 32px;
+    height: 8px;
+    margin-right: .5em;
+  }
+
+  .flex-md-column-reverse .bullet {
+    margin: 0;
+    margin-left: .5em;
+  }
+
+  h2{
+    margin-bottom: 12px;
+    small{
+      font-weight: 700;
+    }
+  }
+  h4{
+    font-weight: 500;
+    color: #707070;
+    font-size: 1.3em;
+    margin-bottom: 100px;
+  }
+  a, a:hover
+  {
+    font-weight: 500;
+    color: #3E3D3D;
+    text-decoration: none;
+  }
+
+  img{
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .list-group{
+    li{
+      border: none;
+      display: flex;
+      padding-left: 0;
+    }
+    .bullet{
+      margin-top: .5em;
+    }
+  }
+}

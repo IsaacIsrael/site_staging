@@ -2,7 +2,7 @@
   - link_class: logo
     links:
       - image: logo_square_white.png
-        alt: White Logo
+        name: White Logo
         link: /
   - title: CONTACT US
     link_class: contact
@@ -12,6 +12,7 @@
         target: true
       - name: <i class="fas fa-envelope-square"></i> hi@digifair.com
         link:  mailto:hi@digifair.com?Subject=Hi
+        target: true
   - title: Follow us
     link_class: social
     links:
@@ -21,10 +22,10 @@
       - name: <i class="fab fa-facebook-f"></i>
         target: true
         link: https://www.facebook.com/digifair365/
-      - name: <i class="fab fa-linkedin-in"></i>
+      - name: <i class="fab fa-pinterest-p"></i>
         target: true
         link: https://br.pinterest.com/digifair/
-      - name: <i class="fab fa-pinterest-p"></i>
+      - name: <i class="fab fa-linkedin-in"></i>
         target: true
         link: https://www.linkedin.com/company/digifair
   - title: DOWNLOAD THE APP
@@ -47,12 +48,12 @@
   - title: GENERAL
     links:
       - name: About
-        link: "#"
+        link: /about
       - name: Blog
         link: "#"
       - name: 'Terms & Conditions'
         link: /terms
-  - title: FABRIC OR APPAREL  BUYERS
+  - title: FABRIC FOR APPAREL BUYERS
     links:
       - name: Improve your productivity
         link: /buyer
@@ -60,11 +61,14 @@
         link: /buyer
       - name: Product inspirations
         link: /buyer
-  - title: FABRIC OR APPAREL SUPPLIERS
+  - title: FABRIC FOR APPAREL SUPPLIERS
     links:
       - name: Get more textile requests
+        link: /supplier
+      - name: How Digifair Note works for suppliers
         link: /supplier
       - name: Types of products to advertise
         link: /supplier
       - name: Know more about our store
         link: /supplier
+

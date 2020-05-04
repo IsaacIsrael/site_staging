@@ -1,6 +1,13 @@
 {% for item in site.data.content[ page.id] %}
   <article id="{{item.id}}">
-    <h2>{{ item.title }}</h2>
+    {% if item.title != nil %}
+      <h2>{{ item.title }}</h2>
+    {% endif %}
     {{ item.content }}
+    {% if include.info.back != nil %}
+      <div class="buttons">
+        <a href="#" class="btn"><i class="fas fa-caret-up"></i></a>
+      </div>
+    {% endif%}
   </article>
 {% endfor %}

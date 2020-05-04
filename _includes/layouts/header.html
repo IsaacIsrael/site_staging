@@ -1,21 +1,18 @@
 <header class="header">
   <div class="container">
-   <div class="row flex-column flex-sm-row">
-     <div class="col">
-         <img class="logo" src="{{ 'assets/images/logo_header.png' | absolute_url}}" alt="Logo">
-     </div>
-     <div class="col">
-       <ul class="nav justify-content-end flex-column flex-sm-row ">
-          {% for item in site.data.header %}
-            <li class="nav-item">
-              <a href="{{ item.link | absolute_url }}" target="_blank" class="nav-link">
-                {{ item.text }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-     </div>
-   </div>
+   <ul class="nav justify-content-end align-items-center flex-column flex-sm-row ">
+      {% for item in site.data.header %}
+        <li class="nav-item {{ item.class }}">
+          <a href="{{ item.link | absolute_url }}" {% if link.target != nil %}target="_blank"{% endif%}  class="nav-link">
+             {% if item.image != nil %}
+                 <img  src="{{ 'assets/images/'| append: item.image  | absolute_url}}" alt="{{ item.text }}">
+              {% else %}
+                  {{ item.text }}
+              {% endif%}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
  </div>
 </header>
 

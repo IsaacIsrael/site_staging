@@ -1,5 +1,11 @@
+- text: logo
+  image: logo_header.png
+  class: logo
+  link: /
 - text: <i class="fab fa-apple"></i> Available for IOS
   link: https://apps.apple.com/br/app/digifair-note/id1483213399
+  target: true
 - text: <i class="fab fa-google-play"></i> Available for Android
   link: https://play.google.com/store/apps/details?id=com.digifairnote
+  target: true
 

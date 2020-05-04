@@ -1,0 +1,22 @@
+#about{
+  #content {
+    margin: 0 ;
+
+    article{
+      margin: 0 95px;
+      text-align: center;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+      color: #3E3D3D;
+    }
+  }
+
+  #info{
+    .row{
+      align-items:center;
+    }
+    .list-group-item{
+      color: #3E3D3D;
+    }
+  }
+}

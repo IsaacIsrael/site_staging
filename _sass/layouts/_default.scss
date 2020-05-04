@@ -1,1 +1,35 @@
+h1,h2,h3,h4,h5 {
+  small{
+    color: #00BAF2;
+    text-transform: uppercase;
+  }
+}
+
+section{
+  margin-top: 80px;
+  &#nav{
+    margin-top: 0px;
+  }
+
+}
+
+#titles{
+  *{
+    font-weight: 400;
+    justify-content:center;
+    text-align: center;
+  }
+
+  small{
+    color: #00BAF2;
+    text-transform: uppercase;
+  }
+
+  h1{
+    font-weight: 700;
+    small{
+      font-weight: 700;
+    }
+  }
+}
 

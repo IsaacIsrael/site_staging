@@ -1,4 +1,4 @@
-- title: Code of Conduct
+- title: <small>Code of Conduct</small>
   id: code
   content: "
     <p>
@@ -29,7 +29,7 @@
        No form of extortion or bribery, including improper offers for payments to or from individuals performing work for suppliers, customers or other contracting parties, government organizations, shall be tolerated. We condemn all forms of corruption and bribery.
     </p>
   "
-- title: Privacy Policy
+- title: <small>Privacy Policy</small>
   id: privacy
   content: "
     <p>
@@ -84,7 +84,7 @@
       You can contact DIGIFAIR under the email address hi@digifair.com.
     </p>
   "
-- title: General Terms
+- title: <small>General Terms</small>
   id: general
   content: "
 <h6> 1. GENERAL PROVISIONS</h6>

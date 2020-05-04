@@ -1,3 +1,9 @@
-- description: <i class="fas fa-plus"></i> <span>What if you could organize your fabric sourcing events and suppliers in one single app?</span>
-- description: <i class="fas fa-plus"></i> <span>What if you could simply upload your fabric sourcing references and inspiration and share them with your team?</span>
-- description: <i class="fas fa-plus"></i>  <span>What if you could catalog all your suppliers' contacts to instantly get in touch with them?</span>
+- commponent: info_list
+  title: What we do
+  list:
+    - description: "Digifair Note brings to the market a digital application (app) that promotes the sourcing and business among textile buyers and suppliers worldwide."
+    - description: "To buyers: it gives the possibility to the source, organize, and buy specific products for their collections with reasonable price and time conditions."
+    - description: "To suppliers: it gives an accessible and reliable channel to show its products to a well-qualified range of buyers."
+- commponent: info_item
+  image: about.png
+  alt: "Digifair Note Screen"

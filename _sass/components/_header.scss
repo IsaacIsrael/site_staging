@@ -1,6 +1,15 @@
 .header{
   margin: 32px 0;
 
+  .logo{
+    margin-right: auto;
+    justify-self: flex-start;
+
+    img{
+      width: 100%;
+    }
+  }
+
   a, a:hover {
     text-align: center;
     font-weight:500;

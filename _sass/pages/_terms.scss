@@ -15,7 +15,7 @@
   }
 
   article{
-    padding: 40px;
+    padding: 40px 0;
 
     h2 small{
       text-align: left;
@@ -50,6 +50,9 @@
       .nav{
         margin: 0 175px;
       }
-  }
+    }
+    article{
+      padding: 40px;
+    }
   }
 }

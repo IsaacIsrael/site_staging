@@ -15,5 +15,5 @@
       {% endif %}
     </div>
   {% endif %}
-  <img src="{{ 'assets/images/'| append: include.info.image | absolute_url}}" alt="{{ include.info.alt }}">
+  <img src="{{ 'assets/images/blank.png' | absolute_url}}"  data-echo="{{ 'assets/images/'| append: include.info.image | absolute_url}}" alt="{{ include.info.alt }}">
 </div>

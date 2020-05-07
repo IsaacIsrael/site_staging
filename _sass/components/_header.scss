@@ -2,9 +2,6 @@
   margin: 32px 0;
 
   .logo{
-    margin-right: auto;
-    justify-self: flex-start;
-
     img{
       width: 100%;
     }
@@ -27,6 +24,23 @@
   height: 27px;
  }
 }
+
+@include media-breakpoint-up(sm) {
+  .header{
+
+    .logo{
+      margin-right: auto;
+      justify-self: flex-start;
+
+      a{
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+
 
 
 

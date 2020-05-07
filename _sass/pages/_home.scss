@@ -1,26 +1,16 @@
 #home{
 
   #nav{
-    .container{
+    .nav{
+      padding: 10px 0;
       border-bottom: 1px solid #000000;
       border-top: 1px solid #000000;
-    }
-
-    .nav{
-      margin: 10px 0;
       justify-content: flex-end;
 
-
-      a{
-        margin-left: 24px;
-      }
-
       span{
-        text-align: right;
-        font: 700;
+        font-weight: 700;
         letter-spacing: 0.26px;
         color: #3E3D3D;
-        opacity: 1;
       }
     }
   }
@@ -44,12 +34,36 @@
     }
   }
 
-  #info{
-    img{
-      margin-left: -100px;
+
+}
+
+
+
+@include media-breakpoint-up(xl) {
+ #home{
+   #info{
+      img{
+        margin-left: -100px;
+      }
+      .flex-md-column-reverse img{
+        margin-left: 100px;
+      }
     }
-    .flex-md-column-reverse img{
-      margin-left: 100px;
-    }
+  }
+}
+
+
+@include media-breakpoint-up(sm) {
+  #home{
+     #nav{
+      .nav{
+        a{
+          margin-left: 24px;
+        }
+        span{
+          text-align: right;
+        }
+      }
+     }
   }
 }

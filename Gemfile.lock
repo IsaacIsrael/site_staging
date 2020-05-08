@@ -28,8 +28,6 @@ GEM
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     ffi (1.10.0)
-    font-awesome-sass (5.12.0)
-      sassc (>= 1.11)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
     github-pages (197)
@@ -118,9 +116,6 @@ GEM
       jekyll (~> 3.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
-    jekyll-font-awesome-sass (0.1.1)
-      font-awesome-sass (>= 4)
-      jekyll (>= 2.5, < 4.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-github-metadata (2.12.1)
@@ -224,15 +219,13 @@ GEM
     ruby-enum (0.7.2)
       i18n
     ruby_dep (1.5.0)
-    rubyzip (1.2.2)
+    rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.7.3)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    sassc (2.3.0)
-      ffi (~> 1.9)
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
@@ -251,7 +244,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed
-  jekyll-font-awesome-sass
   jekyll-seo-tag
   jekyll-sitemap
   tzinfo-data

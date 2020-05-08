@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-<article class="container">
-  <h1>{{ page.title }}</h1>
-  <p class="date">
-    {{ page.date | date_to_string }}
-    {% assign author = site.authors | where: 'short_name', page.author | first %}
-  </p>
-  {{ content }}
+<article id="post" class="container">
+  <section>
+    <h1>
+      <small>{{ page.title }}</small>
+    </h1>
+  </section>
+  <section>
+    {{ content }}
+  </section>
 </article>

@@ -3,13 +3,26 @@ permalink: /:basename/
 title: Blog
 id: blog
 ---
-<h1>Latest Posts</h1>
+<div class="container">
+  <section>
+    <h1 class="text-center">
+      <small>Latest Posts</small>
+    </h1>
+  </section>
+  <section>
+    <ul class="list-group list-group-flush">
+      {% for post in site.posts %}
+        <li class="list-group-item">
+          <a href="{{ post.url | absolute_url }}">
+            <div class="bullet"></div>
+            <strong>{{ post.title }}</strong>
+          </a>
+          <span class="bobdy">
+            {{ post.excerpt }}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>

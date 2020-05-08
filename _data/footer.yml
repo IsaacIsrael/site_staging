@@ -50,7 +50,7 @@
       - name: About
         link: /about
       - name: Blog
-        link: "#"
+        link: /blog
       - name: 'Terms & Conditions'
         link: /terms
   - title: FABRIC FOR APPAREL BUYERS

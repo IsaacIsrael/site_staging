@@ -1,6 +1,6 @@
 ---
-author: jill
 title: "Hemp:a surprising and unique sustainable fabric"
+name: post
 ---
 
 With an increasing concern towards the environmental issues surrounding the textile industry, the rise of sustainable fabrics and fibers is an inevitable market change. Industrial hemp is one of them. And after a lifetime of negative associations with rough textures and a less than appealing look, hemp is one of the most sustainable options when it comes to fabrics, providing it has the right certifications. Ready to find out more about this environmentally-friendly material?
@@ -33,3 +33,5 @@ The sustainable fame from industrial hemp shines especially when compared to cot
 Though much of industrial hemp production is naturally sustainable, it’s worth noting that further manufacturing steps like dyeing could have an extra environmental effect. If possible, find organic and clean certifications to ensure the sustainable credentials of the hemp material you are buying.
 
 Are you thinking about sourcing hemp for your future fashion creations? Download Digifair Note now to get inspired and get in touch directly with suppliers all over the world!
+
+

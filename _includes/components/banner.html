@@ -1,5 +1,7 @@
-<div class="banner" style="background-image:{% if include.blur == nil or include.blur %}linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), {% endif %}  url({{include.image}});">
+<div class="banner" style="background-image:{{ 'assets/images/blank.png' | absolute_url}}"  data-echo-background="{% if include.blur == nil or include.blur %}linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), {% endif %}  url({{include.image}})">
   {% if include.only !=  true %}
     {% include banners/{{ include.banner }}.html%}
   {% endif%}
 </div>
+
+

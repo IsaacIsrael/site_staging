@@ -11,4 +11,7 @@
     <meta name="msapplication-TileImage" content="https://digifair.com/wp-content/uploads/2019/12/cropped-Favicon-270x270.png">
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/styles.css" | absolute_url }}" >
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
 </head>

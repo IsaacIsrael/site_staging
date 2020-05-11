@@ -12,6 +12,6 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/styles.css" | absolute_url }}" >
     {% if site.google_analytics and jekyll.environment == 'production' %}
-      {% include analytics.html %}
+      {% include layouts/analytics.html %}
     {% endif %}
 </head>

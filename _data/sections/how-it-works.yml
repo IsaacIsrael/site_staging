@@ -19,7 +19,7 @@
 - name: first_steps
   component: columns
 - name: titles
-  third_subtitle: <small>Please click here to view all available Supplier’s plans and become a member.</small>
+  third_subtitle: <small>Please <a href="/supplier">click here</a> to view all available Supplier’s plans and become a member.</small>
 - name: feature
   component: columns
 - name: add

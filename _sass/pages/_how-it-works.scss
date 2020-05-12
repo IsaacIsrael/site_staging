@@ -121,6 +121,12 @@
       right: 24px;
       bottom: 30%;
     }
+    .col:first-child{
+      .list-group .list-group-item:nth-child(2){
+        background: transparent;
+        color: #0DAF96;
+      }
+    }
   }
 }
 

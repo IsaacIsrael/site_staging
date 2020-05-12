@@ -1,0 +1,26 @@
+- commponent: step_item
+  class: offset-md-3 offset-lg-0
+  image: 8a-product-filters-digifair-note.png
+  alt: "Product Filters Screem 1"
+- text: <p>You can filter up to 12 categories. Apply filters and make your research easier.</p>
+  class: d-flex align-items-center offset-md-2 offset-lg-0
+- commponent: step_item
+  class: mt-md-3 mt-lg-0 order-2 order-md-1
+  reverse: true
+  image: 8b-product-filters-digifair-note.png
+  alt: "Product Filters Screem 2"
+  image_footer: Construction
+- commponent: step_item
+  class: mt-md-3 mt-lg-0 order-1 order-md-2
+  reverse: true
+  image: 8c-product-filters-digifair-note.png
+  alt: "Product Filters Screem 3"
+  image_header: Filters examples
+  image_footer: Product application
+- commponent: step_item
+  class: mt-md-3 mt-lg-0 order-3
+  reverse: true
+  image: 8d-country-filters-digifair-note.png
+  alt: "Country Filters Screem"
+  image_footer: Country of origin
+

@@ -1,0 +1,30 @@
+- name: cover
+  component: columns
+- name: registration
+  component: columns
+- name: titles
+  sub_title: <small>CHOOSE YOUR PROFILE</small>
+  third_subtitle: <small>After Registering or logging in, a check-in profile will appear for you. Please fill in your profile choosing buyer and/or supplier</small>
+- name: profile
+  component: columns
+- name: search
+  component: columns
+- name: titles
+  sub_title: <small>Filter your feed to accurate your research</small>
+- name: filter
+  component: columns
+- name: titles
+  sub_title: <small>HOMEPAGE - MAIN FUNCTIONS TO SUPPLIERS</small>
+  third_subtitle: <small>Here you can find three essential areas</small>
+- name: first_steps
+  component: columns
+- name: titles
+  third_subtitle: <small>Please click here to view all available Supplier’s plans and become a member.</small>
+- name: feature
+  component: columns
+- name: add
+  component: columns
+- name: titles
+  sub_title: <small>Adding your products</small>
+- name: add_products
+  component: columns

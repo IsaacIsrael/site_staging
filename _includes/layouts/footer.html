@@ -1,9 +1,9 @@
 <footer>
   <div class="container">
     {% for row in site.data.footer %}
-    <div class="row flex-column flex-sm-row">
+    <div class="row flex-column flex-sm-row  ">
       {% for item in row.data %}
-        <div class="col">
+        <div class="col {% unless include.info.reverse != nil or forloop.first %}mt-5{% endunless%} ">
           {% if item.title != nil %}
             <h6>{{item.title}}</h6>
            {% endif%}

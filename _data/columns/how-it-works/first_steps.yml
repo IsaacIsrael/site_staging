@@ -1,0 +1,18 @@
+- commponent: step_item
+  container_class: supplier
+  image: 7a-feed-digifair-note.png
+  alt: "Feed Screem 1"
+  list:
+    - body: Searching tools - here you can search and use filters to find the best products, and inspirations, that match your needs.
+      number: 1
+    - body: "
+      <p>Menu - here you find two main functions for textile suppliers:</p>
+      <p><span id='2' class='number'>2</span>Home - takes you straight to your feed. Create</p>
+      <p><span id='3' class='number'>3</span>Create - allows you to create your company full data as a supplier, and enables you to add your products to be promoted to textile buyers.</p>
+      "
+    - number: 2
+    - number: 3
+    - number: 4
+- commponent: step_content
+  title: Feed
+  content: feed

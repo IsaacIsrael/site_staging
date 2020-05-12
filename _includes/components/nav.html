@@ -1,10 +1,10 @@
 <ul class="nav flex-column flex-sm-row">
   {% for item in site.data.nav[include.list] %}
-   <li class="nav-item">
+   <li class="nav-item {% unless include.info.reverse != nil or forloop.first %}mt-2{% endunless%} mt-md-0 mt-sm-0">
     {% if item.link != nil %}
       <a href="{{ item.link | absolute_url }}" class="nav-link btn {{item.class}}">{{item.name}}</a>
     {% else %}
-      <span class="nav-link">{{item.name}}</a>
+      <span class="nav-link {{item.class}}">{{item.name}}</a>
     {% endif%}
   </li>
   {% endfor %}

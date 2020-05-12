@@ -1,0 +1,18 @@
+- commponent: step_title
+  class: col-md-12 col-lg-auto
+  class_title: justify-content-md-start
+  title: <span>Search for</span> <span>products and</span> <span>inspirations</span>
+- commponent: step_item
+  image: 7a-feed-digifair-note.png
+  alt: "Feed Screem 1"
+  list_class: justify-content-start
+  list:
+    - body: You can search for products and inspirations on your feed using broad or specific words
+      number: 1
+- commponent: step_item
+  reverse: true
+  image: 7b-fabric-search-digifair-note.png
+  alt: "Fabric Search Screem"
+  list:
+    - body: All matching results are shown quickly
+      number: 2

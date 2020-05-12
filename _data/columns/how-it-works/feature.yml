@@ -1,0 +1,17 @@
+- commponent: step_title
+  class: col-md-5
+  class_title: justify-content-center
+  title: <span>The Create feature</span>
+- commponent: step_item
+  container_class: supplier  justify-content-md-start;
+  image: 11a-crerate-digifair-note.png
+  alt: "Crerate Screem 1"
+  list:
+    - body: "
+      <p>Click on “+ Create”. You can add:</p>
+      <p><span id='1' class='number'>1</span> Register new products to be promoted on buyers feeds </p>
+      <p><span id='2' class='number'>2</span> Register your company as a New Supplier. Welcome.</p>
+      "
+    - number: 2
+    - number: 1
+

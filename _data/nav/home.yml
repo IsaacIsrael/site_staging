@@ -1,4 +1,5 @@
 - name: How it Works for
+  class: text-center text-sm-right
 - name: Buyers
   class: btn-primary
   link: /buyer

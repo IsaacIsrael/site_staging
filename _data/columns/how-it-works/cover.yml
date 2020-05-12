@@ -1,0 +1,6 @@
+- text: <h1 class="text-center text-sm-right"><span>How</span> <span>Digifair Note</span> <span>Works</span></h1>
+  class: col-md-4 d-flex align-items-center
+- commponent: info_item
+  image: cover.svg
+  alt: "How It Work Cover"
+

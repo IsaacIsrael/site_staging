@@ -1,0 +1,21 @@
+- commponent: step_title
+  class: col-md-12 col-lg-auto
+  class_title: mt-md-5
+  title: <span>How to</span> <span>make your</span> <span>registration</span>
+- commponent: step_item
+  image: 3a-registration-digifair-note.png
+  alt: "Registration Screem 1"
+  list:
+    - body: You can sign up using your Facebook account, your Apple-ID account, or your Google account.
+      number: 1
+    - body: If you prefer, you can also register with one of your emails.
+      number: 2
+- commponent: step_item
+  reverse: true
+  image: 3b-registration-digifair-note.png
+  alt: "Registration Screem 2"
+  list:
+    - body: Fill in your data and your password
+      number: 3
+    - body: Click on “Register”. Welcome to Digifair!
+      number: 4

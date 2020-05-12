@@ -3,5 +3,5 @@
   image: 'assets/images/video_background.png'
   blur: false
   name: video
-- text: <h1 class="text-xs-left">The best app for worldwide textile and fashion buyers and suppliers</h1>
+- text: <h1 class="text-center text-sm-left">The best app for worldwide textile and fashion buyers and suppliers</h1>
   class: col-md-5 d-flex align-items-center

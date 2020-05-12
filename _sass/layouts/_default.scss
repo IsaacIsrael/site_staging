@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,h6 {
   small{
     color: #00BAF2;
     text-transform: uppercase;
@@ -13,11 +13,21 @@ section{
 
 }
 
+
+
 #titles{
   *{
     font-weight: 400;
     justify-content:center;
     text-align: center;
+  }
+  .sub-title small{
+    color: #3E3D3D;
+  }
+
+  .third-subtitle small{
+    color: #707070;
+    text-transform: none;
   }
 
   small{

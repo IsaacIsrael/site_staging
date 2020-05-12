@@ -1,17 +1,13 @@
-
-{% if include.list == nil %}
-  {% assign list = include.info.list%}
-{% else %}
-  {% assign list = site.data.infos[include.list]%}
-{% endif%}
-<h2>
-  <small>{{ include.info.title }}</small>
-</h2>
-<ul class="list-group list-group-flush">
-  {% for item in list %}
-    <li class="list-group-item">
-      <div class="bullet"></div>
-      <span>{{ item.description }}</span>
-    </li>
-  {% endfor %}
-</ul>
+<div class="info-list">
+  <h2>
+    <small>{{ include.info.title }}</small>
+  </h2>
+  <ul class="list-group list-group-flush">
+    {% for item in include.info.list %}
+      <li class="list-group-item">
+        <div class="bullet"></div>
+        <span>{{ item.title }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

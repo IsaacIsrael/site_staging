@@ -1,4 +1,4 @@
-#info{
+.info-item{
   .bullet{
     background: #AB4499;
     border-radius: 20px;
@@ -34,16 +34,5 @@
   img{
     width: 100%;
     object-fit: contain;
-  }
-
-  .list-group{
-    li{
-      border: none;
-      display: flex;
-      padding-left: 0;
-    }
-    .bullet{
-      margin-top: .5em;
-    }
   }
 }

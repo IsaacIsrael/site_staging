@@ -1,4 +1,5 @@
-- name: info
+- name: image
+  component: columns
 - name: titles
   title: "
     <small>Oops!</small>

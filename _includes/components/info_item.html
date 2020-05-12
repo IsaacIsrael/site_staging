@@ -1,19 +1,21 @@
-<div class="d-flex flex-column {% if include.info.reverse != nil %}flex-md-column-reverse{% endif %}">
-  {% if include.info.title != nil and  include.info.title != nil %}
-    <div>
-      {% if include.info.title != nil %}
-       <h2 class="d-flex align-items-center flex-row{% if include.info.reverse != nil %}-reverse{% endif %}">
-        <div class="bullet"></div>
-        <small>{{ include.info.title }}</small>
-      </h2>
-      {% endif %}
-      {% if include.info.title != nil %}
-      <h4 class="{% if include.info.reverse != nil %}text-right{% endif %}">
-        {{ include.info.body }}
-        <a href="{{ include.info.link | absolute_url}}">Learn more here.</a>
-      </h4>
-      {% endif %}
-    </div>
-  {% endif %}
-  <img src="{{ 'assets/images/blank.png' | absolute_url}}"  data-echo="{{ 'assets/images/'| append: include.info.image | absolute_url}}" alt="{{ include.info.alt }}">
+<div class="info-item">
+  <div class="d-flex flex-column {% if include.info.reverse != nil %}flex-md-column-reverse{% endif %}">
+    {% if include.info.title != nil and  include.info.title != nil %}
+      <div>
+        {% if include.info.title != nil %}
+         <h2 class="d-flex align-items-center flex-row{% if include.info.reverse != nil %}-reverse{% endif %}">
+          <div class="bullet"></div>
+          <small>{{ include.info.title }}</small>
+        </h2>
+        {% endif %}
+        {% if include.info.title != nil %}
+        <h4 class="{% if include.info.reverse != nil %}text-right{% endif %}">
+          {{ include.info.body }}
+          <a href="{{ include.info.link | absolute_url}}">Learn more here.</a>
+        </h4>
+        {% endif %}
+      </div>
+    {% endif %}
+    <img src="{{ 'assets/images/blank.png' | absolute_url}}"  data-echo="{{ 'assets/images/'| append: include.info.image | absolute_url}}" alt="{{ include.info.alt }}">
+  </div>
 </div>

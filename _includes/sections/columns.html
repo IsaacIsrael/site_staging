@@ -1,0 +1,11 @@
+<div class="row flex-column{% if include.info.reverse %}-reverse{% endif %} flex-sm-row">
+  {% for item in site.data.columns[page.id][include.info.name] %}
+  <div class="col {{item.class}}">
+    {% if item.commponent != nil %}
+      {% include components/{{ item.commponent }}.html info=item%}
+    {% else %}
+      {{ item.text }}
+    {% endif%}
+  </div>
+  {% endfor %}
+</div>

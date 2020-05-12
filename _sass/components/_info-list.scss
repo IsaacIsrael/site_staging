@@ -1,16 +1,17 @@
 .info-list{
-  .col>div{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  img{
-    width: 50%;
-    object-fit: contain;
-  }
-  li{
-    display: list-item;
-    border: none;
+  .list-group{
+    li{
+      border: none;
+      padding-left: 0;
+    }
+    .bullet{
+      display: inline-block;
+      background: #AB4499;
+      border-radius: 20px;
+      width: 32px;
+      height: 8px;
+      margin-right: .5em;
+      margin-top: .5em;
+    }
   }
 }

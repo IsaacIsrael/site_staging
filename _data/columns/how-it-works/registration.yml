@@ -1,7 +1,7 @@
 - commponent: step_title
-  class: col-md-12 col-lg-auto
   class_title: mt-md-5
   title: <span>How to</span> <span>make your</span> <span>registration</span>
+  image: 01-background.png
 - commponent: step_item
   image: 3a-registration-digifair-note.png
   alt: "Registration Screem 1"

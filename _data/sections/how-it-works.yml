@@ -16,15 +16,31 @@
 - name: titles
   sub_title: <small>HOMEPAGE - MAIN FUNCTIONS TO SUPPLIERS</small>
   third_subtitle: <small>Here you can find three essential areas</small>
-- name: first_steps
+- name: first_steps_supplier
   component: columns
 - name: titles
   third_subtitle: <small>Please <a href="/supplier">click here</a> to view all available Supplier’s plans and become a member.</small>
-- name: feature
+- name: feature_supplier
   component: columns
-- name: add
+- name: add_company
   component: columns
 - name: titles
   sub_title: <small>Adding your products</small>
 - name: add_products
+  component: columns
+- name: titles
+  sub_title: <small>Homepage - Main functions to Buyers</small>
+- name: first_steps_buyer
+  component: columns
+- name: feature_buyer
+  component: columns
+- name: titles
+  sub_title: <small>Adding your products / inspirations</small>
+- name: add_inspirations
+  component: columns
+- name: add_suppliers
+  component: columns
+- name: quotation_1
+  component: columns
+- name: quotation_2
   component: columns

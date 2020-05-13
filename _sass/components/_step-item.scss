@@ -7,7 +7,7 @@
   .list-group-item{
     border: none;
     background: #99E3FA;
-    border-radius: 10px;
+    border-radius: 13px;
     padding: 12px;
     text-align: left;
     font-weight: 400;
@@ -46,7 +46,9 @@
 
   img{
     border: 5px solid #99E3FA ;
-    border-radius: 10px;
+    border-radius: 13px;
+    max-width: 145px;
+    max-height: 314px;
   }
 
   .image-conatiner{
@@ -72,4 +74,13 @@
       background: #9FDFD5;
     }
   }
+  &.buyer{
+    img{
+      border-color: #DDB4D6;
+    }
+    .list-group-item{
+      background: #DDB4D6;
+    }
+  }
+
 }

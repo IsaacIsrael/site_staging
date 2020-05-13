@@ -4,7 +4,7 @@
       <p class="text-center">{{ include.info.image_header}}</p>
     {% endif%}
     <div class="number-conatiner">
-      <img src="{{ 'assets/images/blank.png' | absolute_url}}"  data-echo="{{ 'assets/images/'| append: include.info.image | absolute_url}}" alt="{{ include.info.alt }}">
+      <img src="{{ 'assets/images/0-blank-digifair-note.png' | absolute_url}}"  data-echo="{{ 'assets/images/'| append: include.info.image | absolute_url}}" alt="{{ include.info.alt }}">
       {% for item in include.info.list %}
         {% if item.number != nil %}
           <span id="{{ item.number }}" class="number">{{ item.number }}</span>

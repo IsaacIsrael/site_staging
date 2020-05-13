@@ -1,5 +1,4 @@
 - commponent: step_title
-  class: col-md-12 col-lg-auto
   class_title: justify-content-md-center
   title: <span>Search for</span> <span>products and</span> <span>inspirations</span>
 - commponent: step_item

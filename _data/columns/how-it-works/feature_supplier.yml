@@ -1,5 +1,6 @@
 - commponent: step_title
   class: col-md-5
+  image: 02-background.png
   class_title: justify-content-center
   title: <span>The Create feature</span>
 - commponent: step_item

@@ -1,5 +1,8 @@
 .step-title{
   height: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left;
   h2{
     height: 100%;
     margin:0;
@@ -7,7 +10,7 @@
       height: 100%;
       display: flex;
       flex-direction:column;
-      font-weight: 700;
+      font-weight: 400;
       color: #3E3D3D;
       text-transform: uppercase;
     }

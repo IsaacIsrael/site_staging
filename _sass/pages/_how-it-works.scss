@@ -59,7 +59,7 @@
     }
   }
 
-  #first_steps{
+  #first_steps_supplier{
     .number[id='1']{
       right: 43%;
       top: 7%;
@@ -78,7 +78,7 @@
     }
   }
 
-  #feature{
+  #feature_supplier{
     .number[id='1']{
       right: 43%;
       top: 7%;
@@ -89,7 +89,7 @@
     }
   }
 
-  #add{
+  #add_company{
      .number[id='1']{
       left: 30%;
       bottom: 11%;
@@ -126,6 +126,94 @@
         background: transparent;
         color: #0DAF96;
       }
+    }
+  }
+   #first_steps_buyer{
+    .number[id='1']{
+      right: 43%;
+      top: 7%;
+    }
+    .number[id='2']{
+      left: 30%;
+      bottom: 11%;
+    }
+    .number[id='3']{
+      right: 29%;
+      top: 48%;
+    }
+  }
+  #feature_buyer{
+    .number[id='1']{
+      right: 43%;
+      top: 7%;
+    }
+    .number[id='2']{
+      right: 43%;
+      top: 43%;
+    }
+  }
+  #add_inspirations{
+     .number[id='1']{
+      left: 30%;
+      bottom: 11%;
+    }
+    .number[id='2']{
+      right: 43%;
+      top: 8%;
+    }
+    .number[id='3']{
+      left: 24px;
+      top: 50%;
+    }
+    .number[id='4']{
+      right: 24px;
+      bottom: 30%;
+    }
+  }
+  #add_suppliers{
+     .number[id='1']{
+      left: 30%;
+      bottom: 11%;
+    }
+    .number[id='2']{
+      right: 43%;
+      top: 43%;
+    }
+    .number[id='3']{
+      right: 43%;
+      top: 19%;
+    }
+  }
+  #quotation_1{
+    .number[id='1']{
+      right: 26%;
+      top: 50%;
+    }
+    .number[id='2']{
+      right: 43%;
+      top: 10%;
+    }
+    .number[id='3']{
+      right: 43%;
+      top: 30%;
+    }
+  }
+   #quotation_2{
+    .number[id='1']{
+      right: 17%;
+      top: 14%;
+    }
+    .number[id='2']{
+      right: 35%;
+      top: 27%;
+    }
+    .number[id='3']{
+      right: 43%;
+      top: 36%;
+    }
+    .number[id='4']{
+      right: 10px;
+      top: 10px;
     }
   }
 }

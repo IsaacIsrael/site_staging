@@ -19,6 +19,7 @@
   sub_title: <small>Don’t keep buyers waiting - Download now.</small>
 - name: nav
   class: justify-content-md-center mt-md-5
+  data: download
 - name: images
   component: columns
 - name: info
@@ -27,5 +28,5 @@
   third_subtitle: <small>Click on the button below to know how Digifair Note works.</small>
 - name: nav
   class: justify-content-center mt-md-5
-  data: supplier_2
+  data: how_it_works
 

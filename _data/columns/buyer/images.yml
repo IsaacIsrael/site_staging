@@ -1,0 +1,8 @@
+- commponent: image
+  class: d-flex align-items-center
+  image: sad.png
+  alt: "Sad Guy"
+- commponent: image
+  class: d-flex align-items-center
+  image: happy.png
+  alt: "Happy Guy"

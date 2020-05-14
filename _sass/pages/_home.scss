@@ -1,5 +1,4 @@
 #home{
-
   #nav{
     .nav{
       padding: 10px 0;
@@ -12,14 +11,6 @@
         letter-spacing: 0.26px;
         color: #3E3D3D;
       }
-    }
-  }
-
-  #video{
-    h1{
-      font-weight: 400;
-      letter-spacing: 1.41px;
-      color: #3E3D3D;
     }
   }
 }
@@ -36,18 +27,5 @@
         margin-left: 100px;
       }
     }
-  }
-}
-
-
-@include media-breakpoint-up(sm) {
-  #home{
-     #nav{
-      .nav{
-        a{
-          margin-left: 24px;
-        }
-      }
-     }
   }
 }

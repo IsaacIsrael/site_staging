@@ -1,10 +1,29 @@
-- name: buyer_banner
-  component: banner
-  container: false
-  image: https://digifair.com/wp-content/uploads/2020/02/banner3.jpg
+- name: cover
+  component: columns
+  reverse: true
+- name: titles
+  sub_title: <small>Note is a worldwide textile productivity app to ease your apparel, fabric, material and trims sourcing as well as the connection with your team.</small>
+- name: nav
+  class: justify-content-md-center mt-md-5
+  data: download
+- name: benefits
+  component: columns
+- name: titles
+  sub_title: <small>With Digifair Note you can</small>
 - name: info
   component: columns
-- name: balls
-  sub_title: Download Digifair Note Now and Start Optimizing your textile sourcing today
-- name: download
+- name: titles
+  sub_title: <small>Download the app now and start your sourcing today</small>
+- name: nav
+  class: justify-content-md-center mt-md-5
+  data: download
+- name: titles
+  sub_title: <small>What kind of fashion products will I find in Digifair Note?</small>
+- name: textile
+  component: columns
+- name: titles
+  third_subtitle: <small>Click on the button below to know how Digifair Note works.</small>
+- name: nav
+  class: justify-content-center mt-md-5
+  data: how_it_works
 

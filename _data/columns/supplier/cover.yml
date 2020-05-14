@@ -2,5 +2,5 @@
   class: d-flex justify-content-md-end
   image: 'supplier.png'
   alt: "Supplier Cover"
-- text: <h1 class="text-center text-sm-left"><span>Join Digifair Note and Start selling to worldwide textile buyers</span><span class="bullet d-none d-sm-block"></span></h1>
+- text: <h1 class="text-center text-sm-left"><span>Join Digifair Note and Start selling to worldwide textile buyers</span><span class="bullet badge-info d-none d-sm-block"></span></h1>
   class: col-md-5 d-flex align-items-center

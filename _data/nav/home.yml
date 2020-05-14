@@ -2,7 +2,7 @@
   class: text-center text-sm-right
 - name: Buyers
   class: btn-primary
-  link: /buyer
+  link: /fabric-fashion-buyer
 - name: Suppliers
   class: btn-secondary
   link: /fashion-fabric-supplier

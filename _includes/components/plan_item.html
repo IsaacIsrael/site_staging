@@ -1,13 +1,13 @@
 <div class="card plan-item">
-  <div class="card-header">{{include.info.name}}</div>
-  <h4 class="card-title">
+  <h2 class="card-header"> <small> {{include.info.name}} </small> </h2>
+  <h3 class="card-title">
     <span>{{include.info.price_year }}</span>
     <span class="card-text">
     {%if include.info.price_year != 'free' %}
       MONTHLY - 1 YEAR CONTRACT
     {%endif%}
     </span>
-  </h4>
+  </h3>
   <ul class="list-group list-group-flush">
     {% for benifit in include.info.benifits %}
       <li class="list-group-item">

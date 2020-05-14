@@ -9,12 +9,13 @@
 
   .card-header{
     background: transparent;
-    font-weight: 700;
     color: #3E3D3D;
     text-align: center;
     border: none;
-    font-size: 25px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    small{
+      font-weight: 700;
+    }
   }
 
   .card-title{

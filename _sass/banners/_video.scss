@@ -1,23 +1,17 @@
 #video{
-  .banner{
-    min-height: 255px;
-    height: auto;
-  }
+  min-height: 255px;
+  height: auto;
 }
 
 @include media-breakpoint-down(lg) {
-   #video{
-    .banner{
-      padding: 20% 0%;
-    }
+  #video{
+    padding: 20% 0%;
   }
 }
 
 @include media-breakpoint-up(lg) {
   #video{
-    .banner{
-      padding: 15%;
-    }
+    padding: 15%;
   }
 }
 

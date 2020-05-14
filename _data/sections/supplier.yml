@@ -1,20 +1,31 @@
-- name: supplier
-  component: banner
-  container: false
-  image: https://digifair.com/wp-content/uploads/2020/01/destaque-1.jpg
-  blur: false
+- name: cover
+  component: columns
+  reverse: true
+- name: titles
+  sub_title: <small>Digifair Note enables you to get</small>
 - name: benefits
-  title: "Digifair Note enables you to get:"
-  data: supplier
-- name: price
-- name: balls
-  sub_title: Join our market place now!
-- name: download
+  component: columns
+- name: titles
+  sub_title: <small>Here are some examples of the kind of textile products you can sell at Digifair Note</small>
+- name: textile
+  component: columns
+- name: titles
+  sub_title: <small>Pricing & Plans</small>
+  third_subtitle: <small>Start selling to worldwide textile buyers</small>
+- name: plans
+  component: columns
+  text: "You can also call us or send a whatsapp to: +1(917)3106710"
+- name: titles
+  sub_title: <small>Don’t keep buyers waiting - Download now.</small>
 - name: nav
-- name: supplier_2
-  component: banner
-  container: false
-  image: https://digifair.com/wp-content/uploads/2020/01/bg2.png
-  blur: false
+  class: justify-content-md-center mt-md-5
+- name: images
+  component: columns
 - name: info
   component: columns
+- name: titles
+  third_subtitle: <small>Click on the button below to know how Digifair Note works.</small>
+- name: nav
+  class: justify-content-center mt-md-5
+  data: supplier_2
+

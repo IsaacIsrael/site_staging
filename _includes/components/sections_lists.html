@@ -1,14 +1,20 @@
 {% for section in site.data.sections[page.id] %}
-
   {% if section.component == nil %}
     {% assign component = section.name%}
   {% else %}
     {% assign component = section.component%}
   {% endif%}
-
+  {% if section.path != nil %}
+    {% assign path = section.path%}
+  {% else %}
+    {% assign path = 'sections'%}
+  {% endif%}
   <section id="{{ section.name }}">
     <div class="{% if section.container == nil or section.container %}container{% endif %}">
-    {% include sections/{{component}}.html info=section %}
+      {% include {{path}}/{{component}}.html info=section %}
+       {% if section.text != nil %}
+        <p class="mt-5 text-center"> {{ section.text }} </p>
+      {% endif%}
     </div>
   </section>
 {% endfor %}

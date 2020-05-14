@@ -1,8 +1,11 @@
 - name: image
-  component: columns
+  path: components
+  class: w-100
+  image: 'error404.png'
+  alt: "404"
 - name: titles
   title: "
     <small>Oops!</small>
     <span>Looks like the page you are looking for is sourcing fabrics somewhere else.</span>
   "
-  sub_title: Why don’t you join us and download the app now?
+  text: Why don’t you join us and download the app now?

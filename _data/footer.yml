@@ -7,12 +7,14 @@
   - title: CONTACT US
     link_class: contact
     links:
-      - name: <i class="fas fa-phone-square-alt"></i> <i class="fab fa-whatsapp-square"></i> +1(917)3106710
-        link: https://api.whatsapp.com/send?1=pt_BR&phone=1(917)3106710
+      - name: <i class="fas fa-phone-square-alt"></i> <i class="fab fa-whatsapp-square"></i> +1(917)3106520
+        link: https://api.whatsapp.com/send?1=pt_BR&phone=1(917)3106520
         target: true
-      - name: <i class="fas fa-envelope-square"></i> hi@digifair.com
-        link:  mailto:hi@digifair.com?Subject=Hi
+      - name: "suppliers: supplier@digifair.com"
+        link:  mailto:supplier@digifair.com
         target: true
+      - name: "buyers: hi@digifair.com"
+        link:  mailto:hi@digifair.com
   - title: Follow us
     link_class: social
     links:
@@ -64,11 +66,11 @@
   - title: FABRIC OR APPAREL SUPPLIERS
     links:
       - name: Get more textile requests
-        link: /supplier
+        link: /fashion-fabric-supplier
       - name: How Digifair Note works for suppliers
         link: /how-it-works
       - name: Types of products to advertise
-        link: /supplier
+        link: /fashion-fabric-supplier
       - name: Know more about our store
-        link: /supplier
+        link: /fashion-fabric-supplier
 

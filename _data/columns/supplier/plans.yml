@@ -1,0 +1,33 @@
+- commponent: plan_item
+  class:  col-md-4 d-flex justify-content-center
+  name: Basic
+  price_year: free
+  button: DOWNLOAD
+  link:
+  benifits:
+    - description: Register 1 e-mail account/user
+    - description: Up to 3 enquiries / qtr
+- commponent: plan_item
+  class:  col-md-4 d-flex justify-content-center
+  name: PROFESSIONAL
+  price_year: $135
+  button: EMAIL US
+  link:  mailto:hi@digifair.com?Subject=Hi
+  benifits:
+    - description: Register up to 2 e-mail accounts/login
+    - description: Up to 20 enquiries / qtr
+    - description: 10 featured products linking to your website
+    - description: 1 Banner Ad in app to promote your brand
+- commponent: plan_item
+  class:  col-md-4 d-flex justify-content-center
+  name: PREMIUM
+  price_year: $272
+  button: EMAIL US
+  link:  mailto:hi@digifair.com?Subject=Hi
+  benifits:
+    - description: Register up to 5 e-mail accounts/login
+    - description: Unlimited enquiries
+    - description: 20 featured products linking to your website
+    - description: 1 Banner Ad in app
+    - description: See Insights and Analytics
+

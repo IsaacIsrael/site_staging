@@ -2,8 +2,6 @@
   component: banner
   container: false
   image: https://digifair.com/wp-content/uploads/2020/02/banner3.jpg
-- name: benefits
-  data: buyer
 - name: info
   component: columns
 - name: balls

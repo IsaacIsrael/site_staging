@@ -1,12 +1,23 @@
 <div class="info-list">
-  <h2>
-    <small>{{ include.info.title }}</small>
-  </h2>
+  {% if include.info.title != nil %}
+    <h2>
+      <small>{{ include.info.title }}</small>
+    </h2>
+  {% endif %}
   <ul class="list-group list-group-flush">
     {% for item in include.info.list %}
       <li class="list-group-item">
-        <div class="bullet"></div>
-        <span>{{ item.title }}</span>
+        {% if item.title  != nil %}
+          <div class="list-header">
+            <div class="bullet"></div>
+            <span>{{ item.title }}</span>
+          </div>
+        {% endif %}
+        {% if item.excerpt != nil %}
+          <div class="list-body">
+            {{ item.excerpt }}
+          </div>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

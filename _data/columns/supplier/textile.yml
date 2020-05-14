@@ -1,0 +1,24 @@
+- commponent: image
+  class: d-flex align-items-md-center
+  image: fabrics.png
+  alt: "Fabrics Samples"
+- commponent: info_list
+  list:
+    - title: FABRICS
+      excerpt: Fashion fabrics, with different compositions, textures, colors and structures for all tastes and purposes.
+    - title: SWATCHES
+      excerpt: Small cuts that show the weight, the fit and the fabric color.
+    - title: WOVENS
+      excerpt: A big variety of fibers with a sophisticated shape. They are very versatile and can be used for all types of clothing - from shorts to heavier jackets.
+    - title: NON WOVENS
+      excerpt: Spunbonds for medical applications, good for face masks and health care clothes.
+    - title: EMBROIDERY
+      excerpt: With different techniques, colors and designs, they always make the garment look unique.
+    - title: KNITS
+      excerpt: The comfort of stretchy knits for everyday clothes. They are easy care and perfect for casualwear, activewear and loungewear.
+    - title: LACE
+      excerpt: Delicate and romantic, usually thought for bridal wear, but can also be used on tops and dresses for special occasions.
+    - title: APPAREL
+      excerpt: Garments and accessories for all fashion sectors.
+    - title: TRIMS
+      excerpt: Decoratives and functionals items that enhance the appeal of the garment.

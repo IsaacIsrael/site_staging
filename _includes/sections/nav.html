@@ -3,6 +3,28 @@
 {% else %}
   {% assign list = include.info.data%}
 {% endif%}
-{% include components/nav.html list=list
-                               commponent=include.info.nav_component
-%}
+
+<ul class="nav flex-column flex-sm-row {{ include.info.class }}">
+  {% for item in site.data.nav[list] %}
+   <li class="nav-item {% unless forloop.first %}mt-2{% endunless%} mt-md-0 mt-sm-0">
+    {% if item.link != nil %}
+      <a href="{{ item.link | absolute_url }}" class="nav-link btn {{item.class}}" {% if item.target != nil %}target="_blank"{% endif%}>
+        {% if item.image == nil %}
+          {{item.name}}
+        {% else %}
+           <img  src="{{ 'assets/images/blank.png' | absolute_url}}" data-echo="{{ 'assets/images/'| append: item.image  | absolute_url}}" alt="{{item.name}}">
+        {% endif%}
+
+      </a>
+    {% else %}
+      <span class="nav-link {{item.class}}">
+        {% if item.image == nil %}
+           {{item.name}}
+        {% else %}
+           <img  src="{{ 'assets/images/blank.png' | absolute_url}}" data-echo="{{ 'assets/images/'| append: item.image  | absolute_url}}" alt="{{item.name}}">
+        {% endif%}
+      </a>
+    {% endif%}
+  </li>
+  {% endfor %}
+</ul>

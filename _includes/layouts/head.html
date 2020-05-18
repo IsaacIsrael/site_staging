@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{ "/assets/styles.css" | absolute_url }}" >
 
     {% if site.google_analytics and jekyll.environment == 'production' %}
-      {% include layouts/analytics.html %}
+      {% include layouts/google_analytics.html %}
+    {% endif %}
+    {% if site.google_tag_manager and jekyll.environment == 'production' %}
+       {% include layouts/google_tag_manager_header.html %}
     {% endif %}
 </head>

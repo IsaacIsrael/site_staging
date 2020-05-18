@@ -8,7 +8,7 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image: /assets/images/default-card.png
+      image: ""
 
 
 exclude:
@@ -23,6 +23,11 @@ exclude:
   - "*.lock"
   - "*.log"
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-google-tag-manager
 
 # meta tags
 title: Digifair Note
@@ -34,3 +39,7 @@ baseurl: ""
 url: "https://www.textilerequests.com"
 # Google Analytics
 google_analytics: UA-166133551-1
+# Google Tag Manaager
+google:
+  tag_manager:
+    container_id: GTM-K83C7ZM

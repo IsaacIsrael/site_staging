@@ -1,8 +1,8 @@
 - commponent: image
   class: d-flex align-items-center
-  image: sad.png
+  image: user_supplier_left.png
   alt: "Sad Guy"
 - commponent: image
   class: d-flex align-items-center
-  image: happy.png
+  image: user_supplier_right.png
   alt: "Happy Guy"

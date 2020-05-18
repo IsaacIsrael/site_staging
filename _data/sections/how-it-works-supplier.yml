@@ -1,0 +1,4 @@
+- name: cover
+  component: columns
+- name: timeline
+  path: components

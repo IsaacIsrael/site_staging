@@ -1,0 +1,50 @@
+- title: Login
+  content: Sign up using Facebook, Apple-ID, Google or your e-mail. To download the app, go to the <a href='https://apps.apple.com/br/app/digifair-note/id1483213399' target='_blank'>App Store</a> or <a href='https://play.google.com/store/apps/details?id=com.digifairnote' target='_blank'>Google Play</a>.
+  image: "digifair-note-registration.png"
+  alt: "Registration Screem"
+- title: Define your Profile
+  content: "Choose your profile. You can be a buyer and/or a supplier of: apparel, fabrics, trims or services."
+  image: "digifair-note-profile.png"
+  alt: "Profile Screem"
+- title: Search
+  content: You can search for products and inspirations on your feed using  specific words.
+  image: "digifair-note-feed.png"
+  alt: "Feed Screem"
+- title: Filter
+  content: Select up to 12 filters to facilitate your search, considering from characteristics to product origin.
+  image: "digifair-note-product-filter.png"
+  alt: "Product Filter Screem"
+- title: Home
+  content: Your Homepage is made of search tools at the top, the feed  in the middle and the menu at the bottom.
+  image: "digifair-note-feed.png"
+  alt: "Feed Screem"
+- title: Add a product / inspiration
+  content: 'Fill in the product form with all information you have. Remember that all fields and all words are searchable.Important: make it "public" to appear on the feed.'
+  image: "digifair-note-add-product.png"
+  alt: "Add Product Screem"
+- title: Create a Supplier
+  content: "Fill in the supplier fields with all important information you have. You can link suppliers to their products."
+  image: "digifair-note-add-supplier.png"
+  alt: "Add Supplier Screem"
+- title: My Sourcing
+  content: It's your "timeline". Here you can see all suppliers and products you added.
+  image: "digifair-note-fabric-sourcing.png"
+  alt: "Fabric Sourcing Screem"
+- title: Favorites
+  content: You can favorite suppliers and products that you like the most and access them in "Favorites".
+  image: "digifair-note-favorite-products.png"
+  alt: "Favorite Products Screem"
+- title: Request a quote
+  content: "
+  <span>Select the suppliers you would like to get in touch. You can request quotation to:</span>
+  <span>Digifair suppliers list - Digifair partners</span>
+  <span>The product supplier - supplier linked to the product</span>
+  <span>Your own suppliers list </span>
+"
+  image: "digifair-note-suppliers-selection.png"
+  alt: "suppliers-selection Screem"
+- title: Send the request
+  content: Write your customized message, send your quotation request and jut wait the suppliers to answer you.
+  image: "digifair-note-suppliers-message.png"
+  alt: "Suppliers Message Screem"
+

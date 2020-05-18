@@ -1,7 +1,7 @@
 - name: image
   path: components
   class: w-100
-  image: 'error404.png'
+  image: 'error.png'
   alt: "404"
 - name: titles
   title: "

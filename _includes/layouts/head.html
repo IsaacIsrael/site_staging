@@ -10,9 +10,12 @@
     <link rel="apple-touch-icon-precomposed" href="https://digifair.com/wp-contentuploads/2019/12/cropped-Favicon-180x180.png">
     <meta name="msapplication-TileImage" content="https://digifair.com/wp-content/uploads/2019/12/cropped-Favicon-270x270.png">
     {% seo %}
+    <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="{{ "/assets/styles.css" | absolute_url }}" >
 
     {% if site.google_analytics and jekyll.environment == 'production' %}
       {% include layouts/analytics.html %}
     {% endif %}
+    {% gtm head %}
 </head>

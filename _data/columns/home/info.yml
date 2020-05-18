@@ -3,11 +3,11 @@
   body: You can organize your inspirations, increase your productivity and buy the products you want through the app.
   link: /buyer
   alt: Digifair Note Screen Buyer
-  image: buyer_home.webp
+  image: cell_home_left.png
 - commponent: info_item
   reverse: true
   title: If you are a supplier
   body: You can have an accessible and reliable channel to show your products to a well-qualified range of buyers.
   link: /supplier
   alt: Digifair Note Screen Supplier
-  image: supplier_home.webp
+  image: cell_home_right.png

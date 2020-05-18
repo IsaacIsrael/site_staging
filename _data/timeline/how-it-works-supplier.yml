@@ -1,0 +1,35 @@
+- title: Login
+  content: Sign up using Facebook, Apple-ID, Google or your e-mail. To download the app, go to the <a href='https://apps.apple.com/br/app/digifair-note/id1483213399' target='_blank'>App Store</a> or <a href='https://play.google.com/store/apps/details?id=com.digifairnote' target='_blank'>Google Play</a>.
+  image: "digifair-note-registration.png"
+  alt: "Registration Screem"
+- title: Define your Profile
+  content: "Choose your profile. You can be a buyer and/or a supplier of: apparel, fabrics, trims or services."
+  image: "digifair-note-profile.png"
+  alt: "Profile Screem"
+- title: Search
+  content: You can search for products and inspirations on your feed using specific words.
+  image: "digifair-note-feed.png"
+  alt: "Feed Screem"
+- title: Filter
+  content: Select up to 12 filters to facilitate your search, considering from characteristics to product origin.
+  image: "digifair-note-product-filter.png"
+  alt: "Product Filter Screem"
+- title: Home
+  content: Your Homepage is made of search tools at the top, the feed in the middle and the menu at the bottom.
+  image: "digifair-note-feed.png"
+  alt: "Feed Screem"
+- title: Add your company as a supplier
+  content: "Fill in with all relevant information about your company and be easily found by buyers."
+  image: "digifair-note-add-supplier.png"
+  alt: "Add Supplier Screem"
+- title: Add a product
+  content: '
+  <span>Fill in the product form with all information you have. Remember that all fields and all words are searchable.</span>
+  <span>You can use up to 5 photos to make your product attractive to buyers. Important: make it public to show in the users feeds</span>
+  '
+  image: "digifair-note-add-product.png"
+  alt: "Add Product Screem"
+- title: Supplier’s plans
+  content: Click here to know all the options of plans to have premium access as a supplier, in addition to in-app banners and unlimited quotes in your email.
+  image: "blank.png"
+  alt: "Blank Screem"

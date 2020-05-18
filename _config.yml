@@ -39,6 +39,4 @@ url: "https://www.textilerequests.com"
 # Google Analytics
 google_analytics: UA-166133551-1
 # Google Tag Manaager
-google:
-  tag_manager:
-    container_id: GTM-K83C7ZM
+google_tag_manager: GTM-K83C7ZM

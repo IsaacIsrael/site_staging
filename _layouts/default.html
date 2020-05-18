@@ -2,6 +2,9 @@
 <html lang="en">
   {% include layouts/head.html %}
   <body>
+    {% if site.google_tag_manager and jekyll.environment == 'production' %}
+      {% include layouts/google_tag_manager_body.html %}
+    {% endif %}
     <div id="{{ page.id }}">
       {% include layouts/header.html %}
       {{ content }}

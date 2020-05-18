@@ -27,7 +27,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-google-tag-manager
 
 # meta tags
 title: Digifair Note

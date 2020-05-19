@@ -13,7 +13,7 @@
     <div class="{% if section.container == nil or section.container %}container{% endif %}">
       {%if  section.title != nil or section.sub_title != nil or section.third_subtitle != nil %}
         <header class="section-header mb-5">
-          {% include sections/titles.html info=section %}
+          {% include components/titles.html info=section %}
         </header>
       {% endif %}
       {%unless  section.no_component != nil and section.no_component  %}

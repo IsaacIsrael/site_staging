@@ -1,3 +1,8 @@
+- name: image
+  path: components
+  class: d-flex justify-content-md-end
+  image: cover_buyer.png
+  alt: "Buyer Cover"
 - name: cover
   component: columns
   reverse: true

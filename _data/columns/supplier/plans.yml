@@ -19,7 +19,7 @@
     - description: 10 featured products linking to your website
     - description: 1 Banner Ad in app to promote your brand
 - commponent: plan_item
-  class:  col-md-4 d-flex justify-content-center
+  class:  col-md-4 h-100 d-flex justify-content-center
   name: PREMIUM
   price_year: $272
   button: EMAIL US

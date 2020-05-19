@@ -1,5 +1,5 @@
 - commponent: plan_item
-  class:  col-md-4 d-flex justify-content-center
+  class: col-md-4
   name: Basic
   price_year: free
   button: DOWNLOAD
@@ -8,7 +8,7 @@
     - description: Register 1 e-mail account/user
     - description: Up to 3 enquiries/qtr
 - commponent: plan_item
-  class:  col-md-4 d-flex justify-content-center
+  class:  col-md-4
   name: PROFESSIONAL
   price_year: $135
   button: EMAIL US
@@ -19,7 +19,7 @@
     - description: 10 featured products linking to your website
     - description: 1 Banner Ad in app to promote your brand
 - commponent: plan_item
-  class:  col-md-4 d-flex justify-content-center
+  class:  col-md-4
   name: PREMIUM
   price_year: $272
   button: EMAIL US

@@ -74,6 +74,20 @@
 
 
 #timeline{
+  h2 small{
+    font-weight: 700;
+    color: #3E3D3D;
+  }
+
+  p{
+    font-weight: 400;
+    color: #3E3D3D;
+
+    span{
+      display: block;
+    }
+  }
+
   .col{
    position: relative;
   }
@@ -94,5 +108,18 @@
     top: 16px;
     left: 10.5px;
     z-index: 1;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #timeline {
+    .col:first-child::after {
+      content: '';
+      background-color: #000;
+      position: absolute;
+      bottom: 0;
+      width: 2px;
+      top: 0;
+    }
   }
 }

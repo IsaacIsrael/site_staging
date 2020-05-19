@@ -1,9 +1,9 @@
 - name: nav
+  class: justify-content-md-end py-2
 - name: cover
   component: columns
   reverse: true
-- name: titles
-  sub_title: <small>An app for the textile industry</small>
-  third_subtitle: <small>Digifair Note is a free app that works for both buyers or suppliers of apparel, fabrics, materials or trims.</small>
 - name: info
   component: columns
+  sub_title: <small>An app for the textile industry</small>
+  third_subtitle: <small>Digifair Note is a free app that works for both buyers or suppliers of apparel, fabrics, materials or trims.</small>

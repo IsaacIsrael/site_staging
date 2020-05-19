@@ -54,11 +54,11 @@
     }
   }
 
-  // .timeline-item:last-child{
-  //   .col:last-child::after {
-  //     height: 18px;
-  //   }
-  // }
+  .timeline-item:last-child{
+    .col:last-child::after {
+      height: 18px;
+    }
+  }
 }
 
 @include media-breakpoint-down(sm) {
@@ -74,6 +74,11 @@
       bottom: 0;
       width: 2px;
       top: 0;
+    }
+    .timeline-item:last-child{
+      .col:first-child::after {
+        height: 0;
+      }
     }
   }
 }

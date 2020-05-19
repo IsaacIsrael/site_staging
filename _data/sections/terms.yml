@@ -1,5 +1,5 @@
-- name: titles
-  title: <small>Terms and Conditions</small>
 - name: nav
+  title: <small>Terms and Conditions</small>
+  class: justify-content-around py-3
 - name: content
   back: true

@@ -1,5 +1,6 @@
-- name: titles
+- name: title
   title: <small>About Digifair Note</small>
+  no_component: true
   text: "
     <p class='text'>
       This fabric sourcing inspiration and productivity app is a product from Digifair, an Israeli fashion tech with a worldwide team and offices in Europe, the USA, and Brazil.

@@ -70,3 +70,19 @@
     }
   }
 }
+
+
+
+#timeline{
+  .col{
+   position: relative;
+  }
+  .col:last-child::after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    width: 2px;
+    top: 0;
+  }
+}

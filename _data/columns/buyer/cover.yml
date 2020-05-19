@@ -1,5 +1,4 @@
 - commponent: image
-  class: d-flex justify-content-md-end
   image: cover_buyer.png
   alt: "Buyer Cover"
 - text: <h1 class="text-center text-sm-left"><span>Are you a fabric or apparel buyer? Digifair Note is the best productivity tool for you!</span><span class="bullet badge-primary d-none d-sm-block"></span></h1>

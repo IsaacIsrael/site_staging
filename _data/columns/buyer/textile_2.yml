@@ -1,5 +1,5 @@
 - commponent: info_list
-  class: d-flex align-items-md-center
+  class: d-sm-flex align-items-sm-center
   list:
     - title: KNITS
       excerpt: The comfort of stretchy knits for everyday clothes. They are easy care and perfect for casualwear, activewear and loungewear.
@@ -10,6 +10,6 @@
     - title: TRIMS
       excerpt: Decoratives and functionals items that enhance the appeal of the garment.
 - commponent: image
-  class: d-flex align-items-md-center
+  class: d-sm-flex align-items-sm-center text-center
   image: fabrics_how_it_works_right.png
   alt: "Fabrics Samples"

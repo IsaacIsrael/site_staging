@@ -1,16 +1,16 @@
 
 {% if include.info.title != nil %}
-  <h1 class="title {{ include.info.class_third_title }}  d-flex align-items-center flex-column flex-sm-row">
+  <h1 class="title  d-flex align-items-center flex-column flex-sm-row">
     {{ include.info.title}}
   </h1>
 {% endif%}
 {% if include.info.sub_title != nil %}
-  <h2 class="sub-title {{ include.info.class_third_sub_title }}  d-flex align-items-center flex-column flex-sm-row">
+  <h2 class="sub-title   d-flex align-items-center flex-column flex-sm-row">
     {{ include.info.sub_title}}
   </h2>
 {% endif%}
 {% if include.info.third_subtitle != nil %}
-  <h3 class="third-subtitle {{ include.info.class_third_subtitle }} d-flex align-items-center flex-column flex-sm-row">
+  <h3 class="third-subtitle d-flex align-items-center flex-column flex-sm-row">
     {{ include.info.third_subtitle}}
   </h3>
 {% endif%}
@@ -19,3 +19,8 @@
 
 
 
+<!--
+{{ include.info.class_third_title }}
+{{ include.info.class_third_sub_title }}
+{{ include.info.class_third_subtitle }}
+ -->

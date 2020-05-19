@@ -66,8 +66,8 @@
 @include media-breakpoint-down(sm) {
   .timeline {
     .col:first-child{
-      display: flex;
-      align-items:center;
+      // display: flex;
+      // align-items:center;
     }
     .col:first-child::after {
       content: '';

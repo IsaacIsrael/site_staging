@@ -1,75 +1,65 @@
-.timeline {
-  h2 small{
-    font-weight: 700;
-    color: #3E3D3D;
-  }
+// .timeline {
+//   h2 small{
+//     font-weight: 700;
+//     color: #3E3D3D;
+//   }
 
-  p{
-    font-weight: 400;
-    color: #3E3D3D;
+//   p{
+//     font-weight: 400;
+//     color: #3E3D3D;
 
-    span{
-      display: block;
-    }
-  }
+//     span{
+//       display: block;
+//     }
+//   }
 
-  .col{
-   position: relative;
-  }
-  .col:last-child::after {
-    content: '';
-    background-color: #000;
-    position: absolute;
-    bottom: 0;
-    width: 2px;
-    top: 0;
-  }
-  .bullet{
-    background: #00BAF2;
-    border-radius: 50%;
-    width: 11px;
-    height: 11px;
-    position: absolute;
-    top: 16px;
-    left: 10.5px;
-    z-index: 1;
-  }
+//   .col{
+//    position: relative;
+//   }
+//   .col:last-child::after {
+//     content: '';
+//     background-color: #000;
+//     position: absolute;
+//     bottom: 0;
+//     width: 2px;
+//     top: 0;
+//   }
+//   .bullet{
+//     background: #00BAF2;
+//     border-radius: 50%;
+//     width: 11px;
+//     height: 11px;
+//     position: absolute;
+//     top: 16px;
+//     left: 10.5px;
+//     z-index: 1;
+//   }
 
-  .image-container{
-    text-align: center;
-  }
+//   .image-container{
+//     text-align: center;
+//   }
 
 
-  .timeline-item:first-child{
-    .col:last-child::after {
-      top: 18px;
-    }
-  }
 
-  .timeline-item:last-child{
-    .col:last-child::after {
-      height: 18px;
-    }
-  }
-}
+// }
 
-@include media-breakpoint-down(sm) {
-  .timeline {
-    .col:first-child::after {
-      content: '';
-      background-color: #000;
-      position: absolute;
-      bottom: 0;
-      width: 2px;
-      top: 0;
-    }
-    .timeline-item:last-child{
-      .col:first-child::after {
-        height: 0;
-      }
-    }
-  }
-}
+// @include media-breakpoint-down(sm) {
+//   .timeline {
+//     .col:first-child::after {
+//       content: '';
+//       background-color: #000;
+//       position: absolute;
+//       bottom: 0;
+//       width: 2px;
+//       top: 0;
+//     }
+//     .timeline-item:last-child{
+//       .col:first-child::after {
+//         height: 0;
+//       }
+//     }
+//   }
+// }
 
 
 
@@ -109,6 +99,15 @@
     left: 10.5px;
     z-index: 1;
   }
+
+
+  .row:first-child .col:last-child::after {
+      top: 18px;
+  }
+
+  .row:last-child .col:last-child::after {
+      height: 18px;
+  }
 }
 
 @include media-breakpoint-down(sm) {
@@ -120,6 +119,10 @@
       bottom: 0;
       width: 2px;
       top: 0;
+    }
+
+    .row:last-child .col:first-child::after {
+      height: 0;
     }
   }
 }

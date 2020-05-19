@@ -12,7 +12,7 @@
     {% seo %}
     <meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="{{ "/assets/styles.css" | absolute_url }}" >
+    <link rel="stylesheet" href="{{ "/assets/styles.css" | absolute_url }}" media="all" >
 
     {% if site.google_analytics and jekyll.environment == 'production' %}
       {% include layouts/google_analytics.html %}

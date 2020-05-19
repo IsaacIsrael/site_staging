@@ -1,9 +1,9 @@
 - commponent: image
-  class: d-flex align-items-md-center
+  class: d-sm-flex align-items-sm-center text-center
   image: fabrics_how_it_works_left.png
   alt: "Fabrics Samples"
 - commponent: info_list
-  class: d-flex align-items-md-center
+  class: d-sm-flex align-items-sm-center
   list:
     - title: FABRICS
       excerpt: Fashion fabrics, with different compositions, textures, colors and structures for all tastes and purposes.

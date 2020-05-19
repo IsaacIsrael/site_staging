@@ -85,4 +85,14 @@
     width: 2px;
     top: 0;
   }
+  .bullet{
+    background: #00BAF2;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 16px;
+    left: 10.5px;
+    z-index: 1;
+  }
 }

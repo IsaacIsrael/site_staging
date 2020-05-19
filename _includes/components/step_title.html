@@ -1,9 +1,0 @@
-<div class="step-title  {{include.info.class_container}}" style="background-image:{{ 'assets/images/blank.png' | absolute_url}}"  data-echo-background="url({{'assets/images/'| append:include.info.image | absolute_url}})">
-  {%if include.info.title != nil %}
-  <h2  class="text-center text-sm{% if include.info.reverse %}-left{%else%}-right{% endif %}">
-    <small class="{{include.info.class_title}}">
-      {{ include.info.title}}
-    </small>
-  </h2>
-  {% endif %}
-</div>

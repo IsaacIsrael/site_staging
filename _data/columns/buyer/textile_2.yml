@@ -1,0 +1,15 @@
+- commponent: info_list
+  class: d-flex align-items-md-center
+  list:
+    - title: KNITS
+      excerpt: The comfort of stretchy knits for everyday clothes. They are easy care and perfect for casualwear, activewear and loungewear.
+    - title: LACE
+      excerpt: Delicate and romantic, usually thought for bridal wear, but can also be used on tops and dresses for special occasions.
+    - title: APPAREL
+      excerpt: Garments and accessories for all fashion sectors.
+    - title: TRIMS
+      excerpt: Decoratives and functionals items that enhance the appeal of the garment.
+- commponent: image
+  class: d-flex align-items-md-center
+  image: fabrics_how_it_works_right.png
+  alt: "Fabrics Samples"

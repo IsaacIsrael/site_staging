@@ -11,9 +11,18 @@
   {% endif%}
   <section id="{{ section.name }}">
     <div class="{% if section.container == nil or section.container %}container{% endif %}">
-      {% include {{path}}/{{component}}.html info=section %}
-       {% if section.text != nil %}
-        <p class="mt-5 text-center"> {{ section.text }} </p>
+      {%if  section.title != nil or section.sub_title != nil or section.third_subtitle != nil %}
+        <header class="section-header mb-5">
+          {% include sections/titles.html info=section %}
+        </header>
+      {% endif %}
+      {%unless  section.no_component != nil and section.no_component  %}
+        {% include {{path}}/{{component}}.html info=section %}
+      {% endunless %}
+      {% if section.text != nil %}
+        <div class="mt-5 text text-center">
+          {{ section.text }}
+        </div>
       {% endif%}
     </div>
   </section>

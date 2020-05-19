@@ -1,6 +1,6 @@
 <div class="row flex-column{% if include.info.reverse %}-reverse{% endif %} flex-sm-row">
   {% for item in site.data.columns[page.id][include.info.name] %}
-  <div class="col {% unless include.info.reverse != nil or forloop.first %}mt-3{% endunless%} mt-md-0 ">
+  <div class="col {% unless include.info.reverse != nil or forloop.first %}mt-3{% endunless%} mt-md-0 {{item.class}}">
     {% if item.commponent != nil %}
       {% include components/{{ item.commponent }}.html info=item%}
     {% else %}
@@ -11,5 +11,5 @@
 </div>
 
 
-<!--   {%  unless include.info.reverse == nil or forloop.last  %}mt-3  {% endunless %}
-  {{item.class}} -->
+<!-- {%  unless include.info.reverse == nil or forloop.last  %}mt-3{% endunless %}
+   -->

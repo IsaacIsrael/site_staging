@@ -1,10 +1,10 @@
-- name: How it Works for
+- name: Check out the user page for
   class: text-center text-sm-right
 - name: Buyers
   class: btn-primary
-  link: /fabric-fashion-buyer
+  link: /buyer
 - name: Suppliers
   class: btn-secondary
-  link: /fashion-fabric-supplier
+  link: /supplier
 
 

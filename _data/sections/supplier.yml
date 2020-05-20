@@ -12,13 +12,14 @@
 - name: nav
   third_subtitle: <small>Click on the button below to know how Digifair Note works.</small>
   class: justify-content-center mt-md-5
-  data: how_it_works
+  data: how_it_works_supplier
 - name: plans
   component: columns
   sub_title: <small>Pricing & Plans</small>
   third_subtitle: <small>Start selling to worldwide textile buyers</small>
   text: "You can also call us or send a whatsapp to: +1(917)3106710"
-- name: nav
+- name: download
+  component: nav
   sub_title: <small>Don’t keep buyers waiting - Download now.</small>
   class: justify-content-md-center mt-md-5
   data: download

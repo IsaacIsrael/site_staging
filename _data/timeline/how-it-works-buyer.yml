@@ -37,9 +37,10 @@
 - title: Request a quote
   content: "
   <span>Select the suppliers you would like to get in touch. You can request quotation to:</span>
-  <span>Digifair suppliers list - Digifair partners</span>
-  <span>The product supplier - supplier linked to the product</span>
-  <span>Your own suppliers list </span>
+  <ul>
+    <li>Product supplier - supplier linked to the product</li>
+    <li>Your own suppliers list </li>
+  </ul>
 "
   image: "digifair-note-suppliers-selection.png"
   alt: "suppliers-selection Screem"

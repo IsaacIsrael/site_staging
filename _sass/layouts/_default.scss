@@ -2,6 +2,10 @@ section{
   margin-top: 100px;
   height: 100%;
 
+  &#download{
+    margin-bottom: 200px;
+  }
+
   .section-header{
     *{
       font-weight: 400;
@@ -15,6 +19,7 @@ section{
     }
     .sub-title small{
       color: #3E3D3D;
+      line-height: 2.3rem;
     }
     .third-subtitle small{
       color: #707070;

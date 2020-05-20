@@ -6,7 +6,11 @@
 - name: title
   no_component: true
   title: "
-    <small>Oops!</small>
-    <span>Looks like the page you are looking for is sourcing fabrics somewhere else.</span>
+    <small class='mb-5 mb-sm-0'>Oops!</small>
+    <span class='text-center text-sm-left'>Looks like the page you are looking for is sourcing fabrics somewhere else.</span>
   "
-  text: Why don’t you join us and download the app now?
+- name: download
+  component: nav
+  class: justify-content-md-center mt-md-5
+  data: download
+  third_subtitle: <small>Why don’t you join us and download the app now?</small>

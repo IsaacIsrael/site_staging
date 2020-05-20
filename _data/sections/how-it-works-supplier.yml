@@ -2,3 +2,8 @@
   component: columns
 - name: timeline
   path: components
+- name: download
+  component: nav
+  sub_title: <small>Download now</small>
+  class: justify-content-md-center mt-md-5
+  data: download

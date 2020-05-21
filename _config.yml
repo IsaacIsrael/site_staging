@@ -35,7 +35,7 @@ description: Digifair Note is a fabric sourcing and inspiration productivity app
 permalink: /:slug/
 # url
 baseurl: ""
-url: "https://www.digifair.com"
+# url: "https://www.digifair.com"
 url: "https://site-kbrc3axi0.now.sh/"
 
 # Google Analytics

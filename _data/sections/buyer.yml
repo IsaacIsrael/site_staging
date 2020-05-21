@@ -5,7 +5,7 @@
   component: nav
   class: justify-content-md-center mt-md-5
   data: how_it_works_buyer
-  sub_title: <small>Digifair Note is a worldwide textile productivity app to ease your apparel, fabric, material and trims sourcing as well as the connection with your team.</small>
+  sub_title: <small> Teste Digifair Note is a worldwide textile productivity app to ease your apparel, fabric, material and trims sourcing as well as the connection with your team.</small>
 - name: benefits
   component: columns
 - name: info

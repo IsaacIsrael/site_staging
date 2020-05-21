@@ -11,9 +11,7 @@
     <meta name="msapplication-TileImage" content="{{ 'assets/images/favicon.ico' | absolute_url}}">
     {% seo %}
     <meta property="og:type" content="website">
-
     <link rel="stylesheet" href="{{ "/assets/styles.css" | absolute_url }}" media="all" >
-
     {% if site.google_analytics and jekyll.environment == 'production' %}
       {% include layouts/google_analytics.html %}
     {% endif %}
@@ -24,3 +22,4 @@
        {% include layouts/facebook_pixel.html %}
     {% endif %}
 </head>
+

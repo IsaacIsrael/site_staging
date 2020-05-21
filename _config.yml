@@ -36,6 +36,7 @@ permalink: /:slug/
 # url
 baseurl: ""
 url: "https://www.digifair.com"
+url: "https://site-kbrc3axi0.now.sh/"
 
 # Google Analytics
 google_analytics: UA-166133551-1

@@ -2,8 +2,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="robots" content="noindex">
-    <meta name="googlebot" content="noindex">
+    {% if site.url == 'https://site-one-theta.now.sh' %}
+      <meta name="robots" content="noindex">
+      <meta name="googlebot" content="noindex">
+    {% endif %}
 
     <link rel="icon" href="{{ 'assets/images/favicon.ico' | absolute_url}}" sizes="32x32">
     <link rel="icon" href="{{ 'assets/images/favicon.ico' | absolute_url}}" sizes="192x192">

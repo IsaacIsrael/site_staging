@@ -2,6 +2,12 @@
 <html lang="en">
   {% include layouts/head.html %}
   <body>
+    <p>
+      absolute_url : {{ '/' | absolute_url }}
+    </p>
+     <p>
+      relative_url : {{ '/' | relative_url }}
+    </p>
     {% if site.google_tag_manager and jekyll.environment == 'production' %}
       {% include layouts/google_tag_manager_body.html %}
     {% endif %}

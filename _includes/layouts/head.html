@@ -20,4 +20,7 @@
     {% if site.google_tag_manager and jekyll.environment == 'production' %}
        {% include layouts/google_tag_manager_header.html %}
     {% endif %}
+    {% if jekyll.environment == 'production' %}
+       {% include layouts/facebook_pixel.html %}
+    {% endif %}
 </head>

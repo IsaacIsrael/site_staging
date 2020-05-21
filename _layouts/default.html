@@ -2,9 +2,6 @@
 <html lang="en">
   {% include layouts/head.html %}
   <body>
-    <p>
-     url: {{ site.url }}
-    </p>
     {% if site.google_tag_manager and jekyll.environment == 'production' %}
       {% include layouts/google_tag_manager_body.html %}
     {% endif %}

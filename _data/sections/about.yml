@@ -11,5 +11,6 @@
   "
 - name: info
   component: columns
+  reverse: true
 
 

@@ -3,13 +3,13 @@
     {% if include.info.title != nil and  include.info.title != nil %}
       <div>
         {% if include.info.title != nil %}
-         <h2 class="d-flex align-items-center flex-row{% if include.info.reverse != nil %}-reverse{% endif %}">
+         <h2 class="d-flex align-items-center justify-content-center justify-content-sm-start  flex-row{% if include.info.reverse != nil %}-reverse{% endif %}">
           <div class="bullet"></div>
           <small>{{ include.info.title }}</small>
         </h2>
         {% endif %}
         {% if include.info.title != nil %}
-        <h4 class="{% if include.info.reverse != nil %}text-right{% endif %}">
+        <h4 class="text-center text-sm-{% if include.info.reverse != nil %}right{% else %}left{% endif %}">
           {{ include.info.body }}
           <a href="{{ include.info.link | absolute_url}}">Learn more here.</a>
         </h4>

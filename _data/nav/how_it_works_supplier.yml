@@ -1,7 +1,7 @@
 - name:  Download Now
-  class: btn-primary mr-md-5
+  class: btn-primary mr-md-5 btn-lg
   link: http://onelink.to/ugwmuv
   target: true
 - name:  How it works
-  class: btn-dark ml-md-5
+  class: btn-dark ml-md-5 btn-lg
   link: /supplier/how-it-works/

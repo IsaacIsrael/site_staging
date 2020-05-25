@@ -3,7 +3,7 @@ section{
   height: 100%;
 
   &#download{
-    margin-bottom: 200px;
+    margin-bottom: 130px;
   }
 
   .section-header{
@@ -28,6 +28,10 @@ section{
   }
 }
 
+.btn{
+  min-width: 180px;
+}
+
 #cover{
   h1{
     font-weight: 400;
@@ -40,5 +44,14 @@ section{
     height: 13px;
     border-radius: 8px;
     margin-top: 10px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  section{
+    margin-top: 50px;
+  }
+  section#download{
+    margin-bottom: 80px;
   }
 }

@@ -25,7 +25,7 @@
 - title: Add a product
   content: '
   <span>Fill in the product form with all information you have. Remember that all fields and all words are searchable by the buyer.</span>
-  <span>You can use up to 5 photos to make your product attractive to buyers.Choose the best ones you have. Important: make it public to show in the users feeds</span>
+  <span>You can use up to 5 photos to make your product attractive to buyers. Choose the best ones you have. Important: make it public to show in the users feeds</span>
   '
   image: "digifair-note-add-product.png"
   alt: "Add Product Screem"

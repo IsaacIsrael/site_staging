@@ -19,7 +19,8 @@
   image: "digifair-note-feed.png"
   alt: "Feed Screem"
 - title: Add a product / inspiration
-  content: 'Fill in the product form with all information you have. Remember that all fields and all words are searchable.Important: make it "public" to appear on the feed.'
+  content: '<span>Fill in the product form with all information you have. Remember that all fields and all words are searchable.</span>
+            <span>Important: make it "public" to appear on the feed.</span>'
   image: "digifair-note-add-product.png"
   alt: "Add Product Screem"
 - title: Create a Supplier

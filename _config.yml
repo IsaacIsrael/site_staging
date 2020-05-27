@@ -37,8 +37,7 @@ permalink: /:slug/
 # url: "https://site-one-theta.now.sh"
 url: "https://www.digifair.com"
 
-
 # Google Analytics
-google_analytics: UA-114778271-4
+# google_analytics: UA-114778271-4
 # Google Tag Manaager
 google_tag_manager: GTM-5CZKXHK

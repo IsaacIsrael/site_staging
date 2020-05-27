@@ -5,6 +5,7 @@
   alt: Digifair Note Screen Buyer
   image: cell_home_left.png
 - commponent: info_item
+  class: mt-5 mt-sm-0
   reverse: true
   title: If you are a supplier
   body: You can have an accessible and reliable channel to show your products to a well-qualified range of buyers.

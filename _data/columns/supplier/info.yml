@@ -1,15 +1,14 @@
 - commponent: info_list
   list:
      - title: Publish your products to worldwide textile buyers
-     - title: Get inquiries and quotations
      - title: Enhance your prospects list
      - title: Use Digifair Note powerful digital marketing techniques
      - title: Strengthen your brand and products with banners ads
      - title: Analyse your products performance using our insights and analytics
 - commponent: info_list
+  class: mt-1
   list:
-    - title: Connect products straight to your site
-    - title: Use our e-commerce to sell directly through the app
+    - title: Use your e-commerce to sell directly through the app
     - title: Get inquiries and quotation requests
     - title: Use Digifair Note to powerful your online sales
     - title: Connect products straight to your website

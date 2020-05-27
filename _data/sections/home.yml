@@ -6,4 +6,4 @@
 - name: info
   component: columns
   sub_title: <small>An app for the textile industry</small>
-  third_subtitle: <small>Digifair Note is a free app that works for both buyers or suppliers of apparel, fabrics, materials or trims.</small>
+  third_subtitle: <small>Digifair Note is a free app that works for both buyers and suppliers of apparel, fabrics, materials or trims.</small>

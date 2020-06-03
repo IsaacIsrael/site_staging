@@ -1,0 +1,26 @@
+#ecommerce{
+  height: 100%;
+  min-height: 240px;
+  color: #FFFFFF;
+  text-align: left;
+
+  h4{
+    text-transform: uppercase;
+
+    small{
+     font-weight: 700;
+    }
+  }
+
+  a{
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
+}
+
+
+@include media-breakpoint-up(sm) {
+  #ecommerce{
+    background-size: contain;
+  }
+}

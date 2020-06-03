@@ -1,6 +1,6 @@
 - commponent: banner
   class: col-md-7
-  image: 'assets/images/video_background.png'
+  image: 'video.png'
   blur: false
   name: video
 - text: "<h1 class='text-center text-sm-lefts'>Digifair Note: The best app for worldwide textile and fashion buyers and suppliers</h1>"

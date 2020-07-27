@@ -11,7 +11,7 @@
         {% if include.info.title != nil %}
         <h4 class="text-center text-sm-{% if include.info.reverse != nil %}right{% else %}left{% endif %}">
           {{ include.info.body }}
-          <a href="{{ include.info.link | absolute_url}}">Learn more here.</a>
+          <a href="{{ include.info.link | absolute_url}}" {% if include.info.target != nil %}target="_blank"{% endif%} >Learn more here.</a>
         </h4>
         {% endif %}
       </div>

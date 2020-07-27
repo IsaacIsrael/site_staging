@@ -34,8 +34,8 @@ email: hi@digifair.com
 description: Digifair Note is a fabric sourcing and inspiration productivity app for fashion buyers and fashion designers. Upload photos of fabrics, register your suppliers' contacts, track fabric trade shows - all in one single app.
 permalink: /:slug/
 # url
-# url: "https://staging-digifair.now.sh/"
-url: "https://www.digifair.com"
+url: "https://staging-digifair.now.sh/"
+# url: "https://www.digifair.com"
 
 # Google Analytics
 # google_analytics: UA-114778271-4

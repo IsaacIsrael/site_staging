@@ -1,6 +1,6 @@
 - text: <h1 class="text-center text-sm-right">How Digifair Note Works for Buyers</h1>
-  class: col-md-4 d-flex align-items-center
-- commponent: info_item
+  class: col-sm-4 d-sm-flex align-items-sm-center
+- commponent: image
   image: cover_how_it_works_buyer.svg
   alt: "How It Work fo Buyers Cover"
 

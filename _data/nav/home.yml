@@ -5,6 +5,8 @@
   link: /buyer
 - name: Suppliers
   class: btn-secondary
-  link: /supplier
+  link: https://fabricstore.digifair.com/supplier/
+  target: true
+
 
 

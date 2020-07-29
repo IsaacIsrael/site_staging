@@ -1,4 +1,4 @@
-- text: <h1 class="text-center text-sm-right">How Digifair Note Works for Buyers</h1>
+- text: <h1 class="text-center text-sm-right w-100"><span class="d-block">How</span><span class="d-block">Digifair Note</span><span class="d-block">Works</span></h1>
   class: col-sm-4 d-sm-flex align-items-sm-center
 - commponent: image
   image: cover_how_it_works_buyer.png

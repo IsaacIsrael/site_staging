@@ -9,6 +9,7 @@
   reverse: true
   title: If you are a supplier
   body: You can have an accessible and reliable channel to show your products to a well-qualified range of buyers.
-  link: /supplier
+  link: https://fabricstore.digifair.com/supplier/
+  target: true
   alt: Digifair Note Screen Supplier
   image: cell_home_right.png

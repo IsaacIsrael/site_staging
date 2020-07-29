@@ -1,6 +1,0 @@
-- commponent: image
-  class: d-sm-flex justify-content-sm-end
-  image: 'cover_supplier.png'
-  alt: "Supplier Cover"
-- text: <h1 class="text-center text-sm-left"><span>Join Digifair Note and Start selling to worldwide textile buyers</span><span class="bullet badge-info d-none d-sm-block"></span></h1>
-  class: col-md-5 d-sm-flex align-items-sm-center

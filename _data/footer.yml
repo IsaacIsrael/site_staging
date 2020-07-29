@@ -55,18 +55,15 @@
         link: /blog
       - name: 'Terms & Conditions'
         link: /terms
-  - title: FABRIC OR APPAREL BUYERS
+  - title: FABRIC BUYERS
     links:
       - name: Improve your productivity
         link: /buyer
       - name: How Digifair Note works for buyers
         link: /buyer/how-it-works
-  - title: FABRIC OR APPAREL SUPPLIERS
+  - title: FABRIC  SUPPLIERS
     links:
       - name: Get more textile requests
-        link: /supplier
-      - name: How Digifair Note works for suppliers
-        link: /supplier/how-it-works
-      - name: "Coming soon: E-commerce"
-        link: /supplier
+        link: https://fabricstore.digifair.com/supplier/
+        target: true
 

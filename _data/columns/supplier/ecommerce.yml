@@ -2,7 +2,4 @@
   class: d-sm-flex align-items-sm-center justify-content-sm-center text-center
   image: ecommerce.png
   alt: "Ecormerce Screen"
-- commponent: banner
-  image: 'ecommerce.png'
-  blur: false
-  name: ecommerce
+

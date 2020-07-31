@@ -2,10 +2,6 @@
   content: Sign up using Facebook, Apple-ID, Google or your e-mail. To download the app, go to the <a href='https://apps.apple.com/br/app/digifair-note/id1483213399' target='_blank'>App Store</a> or <a href='https://play.google.com/store/apps/details?id=com.digifairnote' target='_blank'>Google Play</a>.
   image: "digifair-note-registration.png"
   alt: "Registration Screem"
-- title: Define your Profile
-  content: "Choose your profile. You can be a buyer and/or a supplier of: apparel, fabrics, trims or services."
-  image: "digifair-note-profile.png"
-  alt: "Profile Screem"
 - title: Search
   content: You can search for products and inspirations on your feed using  specific words.
   image: "digifair-note-feed.png"
